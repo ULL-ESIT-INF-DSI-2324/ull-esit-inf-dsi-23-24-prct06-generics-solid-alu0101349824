@@ -85,27 +85,32 @@
             <h4>Description</h4>
             <p>
               El código fuente propuesto para el gestor de ficheros presenta
-              potencialmente una violación del Principio de Responsabilidad
-              Única (Single Responsibility Principle - SRP), el cual es uno de
-              los principios SOLID. Este principio establece que una clase debe
-              tener una y solo una razón para cambiar, lo que significa que
-              debería tener solo una tarea o responsabilidad. En el caso de
-              FileManager, está manejando tanto la lectura como la escritura de
-              archivos, lo cual podría considerarse más de una responsabilidad,
-              especialmente si pensamos en extender sus funcionalidades en el
-              futuro (por ejemplo, añadiendo métodos para borrar archivos,
-              copiar archivos, etc.).
+              potencialmente una violación del
+              <code
+                >Principio de Responsabilidad Única (Single Responsibility
+                Principle - SRP)</code
+              >, el cual es uno de los principios SOLID. Este principio
+              establece que una clase debe tener una y solo una razón para
+              cambiar, lo que significa que debería tener solo una tarea o
+              responsabilidad. En el caso de <code>FileManager</code>, está
+              manejando tanto la lectura como la escritura de archivos, lo cual
+              podría considerarse más de una responsabilidad, especialmente si
+              pensamos en extender sus funcionalidades en el futuro (por
+              ejemplo, añadiendo métodos para borrar archivos, copiar archivos,
+              etc.).
             </p>
             <p>
               Para solucionar este problema, se propone la creación de una
-              interfaz IFileHandler que defina los métodos readFile y
-              appendToFile, y una clase FileHandler que implemente dicha
-              interfaz. De esta manera, FileManager podría delegar la
-              responsabilidad de leer y escribir archivos a FileHandler,
+              interfaz <code>IFileHandler</code> que defina los métodos
+              <code>readFile</code> y <code>appendToFile</code>, y una clase
+              <code>FileHandler</code> que implemente dicha interfaz. De esta
+              manera, <code>FileManager</code> podría delegar la responsabilidad
+              de leer y escribir archivos a <code>FileHandler</code>,
               manteniendo su responsabilidad única de manejar la lógica de
               negocio relacionada con los archivos (SPR). Además, esta solución
-              permitiría extender las funcionalidades de FileHandler sin
-              necesidad de modificar FileManager (OCP).
+              permitiría extender las funcionalidades de
+              <code>FileHandler</code> sin necesidad de modificar FileManager
+              (OCP).
             </p>
           </div>
         </section>
@@ -114,7 +119,7 @@
             <li>
               Defined in
               <a
-                href="https://github.com/ULL-ESIT-INF-DSI-2324/ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101349824/blob/078dea0/src/ejercicio-3.ts#L1"
+                href="https://github.com/ULL-ESIT-INF-DSI-2324/ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101349824/blob/7db1d05/src/ejercicio-3.ts#L1"
                 >ejercicio-3.ts:1</a
               >
             </li>
@@ -383,6 +388,13 @@
                   ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
                     <use href="#icon-2"></use></svg
                   >Ejercicio 3: Gestor de ficheros.</a
+                >
+              </li>
+              <li>
+                <a href="Ejercicio_4__Impresoras_y_esc_neres_.html"
+                  ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
+                    <use href="#icon-2"></use></svg
+                  >Ejercicio 4: Impresoras y escáneres.</a
                 >
               </li>
               <li>
