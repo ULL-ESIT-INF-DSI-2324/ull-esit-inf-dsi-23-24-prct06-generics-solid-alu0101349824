@@ -15,6 +15,7 @@ export interface Arithmeticable<T> {
    * @returns La suma de a y b.
    */
   add(a: T, b: T): T;
+
   /**
    * Realiza la resta de dos números.
    * @param a Primer número.
@@ -22,6 +23,7 @@ export interface Arithmeticable<T> {
    * @returns La resta de a y b.
    */
   subtract(a: T, b: T): T;
+
   /**
    * Realiza la multiplicación de dos números.
    * @param a Primer número.
@@ -29,6 +31,7 @@ export interface Arithmeticable<T> {
    * @returns El producto de a y b.
    */
   multiply(a: T, b: T): T;
+
   /**
    * Realiza la división de dos números.
    * @param a Primer número.
@@ -41,7 +44,7 @@ export interface Arithmeticable<T> {
 /**
  * Clase `BasicCalculator` que implementa la interfaz `Arithmeticable` con números.
  * Realiza operaciones aritméticas básicas con números.
- * @implements Arithmeticable<number>
+ * Implenta la interfaz `Arithmeticable` para realizar operaciones aritméticas.
  * @method add Suma de dos números.
  * @method subtract Resta de dos números.
  * @method multiply Multiplicación de dos números.

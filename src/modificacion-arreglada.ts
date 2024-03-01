@@ -32,18 +32,21 @@ export interface Arithmeticable<T> {
    * @returns La suma de this y other.
    */
   add(other: T): T;
+
   /**
    * Realiza la resta de dos elementos.
    * @param other Elemento a restar.
    * @returns La resta de this y other.
    */
   subtract(other: T): T;
+
   /**
    * Realiza la multiplicación de dos elementos.
    * @param other Elemento a multiplicar.
    * @returns La multiplicación de this y other.
    */
   multiply(other: T): T;
+
   /**
    * Realiza la división de dos elementos.
    * @param other Elemento a dividir.

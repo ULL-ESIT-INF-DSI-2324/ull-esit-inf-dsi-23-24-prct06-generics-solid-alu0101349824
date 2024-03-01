@@ -15,6 +15,7 @@ export interface Arithmeticable {
    * @returns La suma de a y b.
    */
   add(a: number, b: number): number;
+
   /**
    * Realiza la resta de dos números.
    * @param a Primer número.
@@ -22,6 +23,7 @@ export interface Arithmeticable {
    * @returns La resta de a y b.
    */
   subtract(a: number, b: number): number;
+
   /**
    * Realiza la multiplicación de dos números.
    * @param a Primer número.
@@ -29,6 +31,7 @@ export interface Arithmeticable {
    * @returns El producto de a y b.
    */
   multiply(a: number, b: number): number;
+
   /**
    * Realiza la división de dos números.
    * @param a Primer número.
