@@ -1,4 +1,15 @@
 /**
+ * @module Ejercicio 2: Facturas en diferentes formatos.
+ * @file ejercicio-2.ts
+ * @brief Programa que muestra cómo se pueden crear diferentes tipos de facturas
+ * con diferentes formatos (PDF, HTML, etc.) y que todas tengan un método común
+ * para generar la factura.
+ * @description El requerimiento de que el diseño del sistema permita añadir nuevos formatos de generación de facturas sin necesidad de modificar el resto del código implementado se alinea directamente con el `Principio de Abierto/Cerrado (Open/Closed Principle)`, uno de los cinco principios SOLID de la programación orientada a objetos.
+ *
+ * El ejercicio propuesto ha sido abordado con la intención de demostrar cómo se pueden gestionar facturas en diferentes formatos, siguiendo el Principio de Abierto/Cerrado, uno de los pilares SOLID, que promueve la extensibilidad de las clases sin necesidad de modificar el código existente. Para lograr esto, se ha definido una interfaz `IFactura` que establece un contrato común para la generación de facturas, garantizando que cualquier clase que la implemente provea su propio método `generarFactura`. Este enfoque permite la creación de diversas representaciones de facturas, como PDF y HTML en este caso, cada una con características específicas como `metadatosPDF` y `estilosCSS`, respectivamente, sin alterar la definición inicial de la interfaz. La clase base `Factura` actúa como un fundamento para almacenar información común como el cliente y el total de la factura, mientras que las clases `FacturaPDF` y `FacturaHTML` extienden esta base incorporando los detalles específicos de cada formato y cumpliendo con el contrato de la interfaz mediante la implementación del método `generarFactura`. Esta estructura no solo facilita la adición de nuevos formatos de factura en el futuro, sino que también promueve un diseño limpio y mantenible, respetando los principios SOLID y asegurando que el sistema sea robusto, flexible y fácil de extender.
+ */
+
+/**
  * Interfaz para definir el comportamiento de las facturas.
  * Esta interfaz permite que las clases que la implementen
  * tengan un método para generar la factura.
