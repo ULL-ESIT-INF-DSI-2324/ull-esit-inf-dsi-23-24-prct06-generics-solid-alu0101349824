@@ -20,6 +20,9 @@ Se incluyen tareas previas como la configuración de un repositorio en GitHub Cl
 de herramientas para el cubrimiento del código fuente. Cada ejercicio propuesto aborda diferentes aspectos 
 de la programación orientada a objetos y el uso de TypeScript, desde la gestión de enseres en una mudanza 
 hasta el diseño de un sistema de notificaciones.
+Se ha hecho uso de las herramientas de Coveralls e Istanbul para la evaluación de la cobertura de código:
+
+[![Coverage Status](https://coveralls.io/repos/github/ULL-ESIT-INF-DSI-2324/ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101349824/badge.svg?branch=main)](https://coveralls.io/github/ULL-ESIT-INF-DSI-2324/ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101349824?branch=main)
 
 ## Aprendizajes Clave sobre TypeScript
 
