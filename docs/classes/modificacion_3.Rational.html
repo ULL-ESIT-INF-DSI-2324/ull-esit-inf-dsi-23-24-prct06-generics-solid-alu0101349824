@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="IE=edge" />
     <title>
-      Box | ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101349824
+      Rational | ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101349824
     </title>
     <meta
       name="description"
@@ -64,54 +64,55 @@
                 >ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101349824</a
               >
             </li>
-            <li>
-              <a href="../modules/Ejercicio_1__La_mudanza_.html"
-                >Ejercicio 1: La mudanza.</a
-              >
-            </li>
-            <li><a href="Ejercicio_1__La_mudanza_.Box.html">Box</a></li>
+            <li><a href="../modules/modificacion_3.html">modificacion-3</a></li>
+            <li><a href="modificacion_3.Rational.html">Rational</a></li>
           </ul>
-          <h1>Class Box&lt;T&gt;</h1>
+          <h1>Class Rational</h1>
         </div>
         <section class="tsd-panel tsd-comment">
           <div class="tsd-comment tsd-typography">
-            <p>Representa una caja que puede contener varios enseres.</p>
+            <p>
+              Clase que representa un número racional. Implementa la interfaz
+              <code>Arithmeticable</code> para realizar operaciones aritméticas.
+            </p>
           </div>
           <div class="tsd-comment tsd-typography">
             <h4>Method</h4>
-            <p>addItem Añade un enser a la caja.</p>
+            <p>add Suma de dos números racionales.</p>
             <h4>Method</h4>
-            <p>removeItem Elimina un enser de la caja por su nombre.</p>
+            <p>subtract Resta de dos números racionales.</p>
             <h4>Method</h4>
-            <p>
-              listItems Imprime por consola los enseres contenidos en la caja.
-            </p>
+            <p>multiply Multiplicación de dos números racionales.</p>
             <h4>Method</h4>
-            <p>findItem Busca un enser en la caja por su nombre.</p>
-            <h4>Throws</h4>
-            <p>Error si se intenta añadir un enser duplicado.</p>
+            <p>divide División de dos números racionales.</p>
+            <h4>Method</h4>
+            <p>simplify Simplifica el número racional a su forma más simple.</p>
+            <h4>Method</h4>
+            <p>mcd Calcula el máximo común divisor (MCD) de dos números.</p>
+            <h4>Method</h4>
+            <p>toString Convierte el número racional a una cadena de texto.</p>
+            <h4>Param: numerator</h4>
+            <p>Numerador del número racional.</p>
+            <h4>Param: denominator</h4>
+            <p>Denominador del número racional.</p>
             <h4>Returns</h4>
-            <p>El enser encontrado o undefined si no se encuentra.</p>
+            <p>Un número racional.</p>
           </div>
         </section>
         <section class="tsd-panel">
-          <h4>Type Parameters</h4>
-          <ul class="tsd-type-parameter-list">
+          <h4>Implements</h4>
+          <ul class="tsd-hierarchy">
             <li>
-              <h4>
-                <a id="T" class="tsd-anchor"></a
-                ><span class="tsd-kind-type-parameter">T</span
-                ><span class="tsd-signature-keyword"> extends </span
-                ><a
-                  href="../interfaces/Ejercicio_1__La_mudanza_.Item.html"
-                  class="tsd-signature-type tsd-kind-interface"
-                  >Item</a
-                >
-              </h4>
-              <div class="tsd-comment tsd-typography">
-                <p>El tipo de enser que puede contener la caja.</p>
-              </div>
-              <div class="tsd-comment tsd-typography"></div>
+              <a
+                href="../interfaces/modificacion_3.Arithmeticable.html"
+                class="tsd-signature-type tsd-kind-interface"
+                >Arithmeticable</a
+              ><span class="tsd-signature-symbol">&lt;</span
+              ><a
+                href="modificacion_3.Rational.html"
+                class="tsd-signature-type tsd-kind-class"
+                >Rational</a
+              ><span class="tsd-signature-symbol">&gt;</span>
             </li>
           </ul>
         </section>
@@ -120,8 +121,8 @@
             <li>
               Defined in
               <a
-                href="https://github.com/ULL-ESIT-INF-DSI-2324/ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101349824/blob/a917424/src/ejercicio-1.ts#L33"
-                >ejercicio-1.ts:33</a
+                href="https://github.com/ULL-ESIT-INF-DSI-2324/ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101349824/blob/a917424/src/modificacion-3.ts#L156"
+                >modificacion-3.ts:156</a
               >
             </li>
           </ul>
@@ -147,7 +148,7 @@
                   <h3 class="tsd-index-heading">Constructors</h3>
                   <div class="tsd-index-list">
                     <a
-                      href="Ejercicio_1__La_mudanza_.Box.html#constructor"
+                      href="modificacion_3.Rational.html#constructor"
                       class="tsd-index-link"
                       ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
                         <use href="#icon-512"></use></svg
@@ -159,11 +160,18 @@
                   <h3 class="tsd-index-heading">Properties</h3>
                   <div class="tsd-index-list">
                     <a
-                      href="Ejercicio_1__La_mudanza_.Box.html#contents"
-                      class="tsd-index-link tsd-is-private"
+                      href="modificacion_3.Rational.html#denominator"
+                      class="tsd-index-link"
                       ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
                         <use href="#icon-1024"></use></svg
-                      ><span>contents</span></a
+                      ><span>denominator</span></a
+                    >
+                    <a
+                      href="modificacion_3.Rational.html#numerator"
+                      class="tsd-index-link"
+                      ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
+                        <use href="#icon-1024"></use></svg
+                      ><span>numerator</span></a
                     >
                   </div>
                 </section>
@@ -171,32 +179,53 @@
                   <h3 class="tsd-index-heading">Methods</h3>
                   <div class="tsd-index-list">
                     <a
-                      href="Ejercicio_1__La_mudanza_.Box.html#addItem"
+                      href="modificacion_3.Rational.html#add"
                       class="tsd-index-link"
                       ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
                         <use href="#icon-2048"></use></svg
-                      ><span>add<wbr />Item</span></a
+                      ><span>add</span></a
                     >
                     <a
-                      href="Ejercicio_1__La_mudanza_.Box.html#findItem"
+                      href="modificacion_3.Rational.html#divide"
                       class="tsd-index-link"
                       ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
                         <use href="#icon-2048"></use></svg
-                      ><span>find<wbr />Item</span></a
+                      ><span>divide</span></a
                     >
                     <a
-                      href="Ejercicio_1__La_mudanza_.Box.html#listItems"
-                      class="tsd-index-link"
+                      href="modificacion_3.Rational.html#mcd"
+                      class="tsd-index-link tsd-is-private"
                       ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
                         <use href="#icon-2048"></use></svg
-                      ><span>list<wbr />Items</span></a
+                      ><span>mcd</span></a
                     >
                     <a
-                      href="Ejercicio_1__La_mudanza_.Box.html#removeItem"
+                      href="modificacion_3.Rational.html#multiply"
                       class="tsd-index-link"
                       ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
                         <use href="#icon-2048"></use></svg
-                      ><span>remove<wbr />Item</span></a
+                      ><span>multiply</span></a
+                    >
+                    <a
+                      href="modificacion_3.Rational.html#simplify"
+                      class="tsd-index-link tsd-is-private"
+                      ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
+                        <use href="#icon-2048"></use></svg
+                      ><span>simplify</span></a
+                    >
+                    <a
+                      href="modificacion_3.Rational.html#subtract"
+                      class="tsd-index-link"
+                      ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
+                        <use href="#icon-2048"></use></svg
+                      ><span>subtract</span></a
+                    >
+                    <a
+                      href="modificacion_3.Rational.html#toString"
+                      class="tsd-index-link"
+                      ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
+                        <use href="#icon-2048"></use></svg
+                      ><span>to<wbr />String</span></a
                     >
                   </div>
                 </section>
@@ -219,105 +248,148 @@
             </h3>
             <ul class="tsd-signatures">
               <li class="tsd-signature tsd-anchor-link">
-                <a id="constructor.new_Box" class="tsd-anchor"></a
+                <a id="constructor.new_Rational" class="tsd-anchor"></a
                 ><span class="tsd-kind-constructor-signature"
-                  >new <wbr />Box</span
-                ><span class="tsd-signature-symbol">&lt;</span
-                ><a
-                  class="tsd-signature-type tsd-kind-type-parameter"
-                  href="Ejercicio_1__La_mudanza_.Box.html#constructor.new_Box.T-1"
-                  >T</a
-                ><span class="tsd-signature-symbol">&gt;</span
+                  >new <wbr />Rational</span
                 ><span class="tsd-signature-symbol">(</span
+                ><span class="tsd-kind-parameter">numerator</span>,
+                <span class="tsd-kind-parameter">denominator</span
                 ><span class="tsd-signature-symbol">)</span
                 ><span class="tsd-signature-symbol">: </span
                 ><a
-                  href="Ejercicio_1__La_mudanza_.Box.html"
+                  href="modificacion_3.Rational.html"
                   class="tsd-signature-type tsd-kind-class"
-                  >Box</a
-                ><span class="tsd-signature-symbol">&lt;</span
+                  >Rational</a
                 ><a
-                  class="tsd-signature-type tsd-kind-type-parameter"
-                  href="Ejercicio_1__La_mudanza_.Box.html#constructor.new_Box.T-1"
-                  >T</a
-                ><span class="tsd-signature-symbol">&gt;</span
-                ><a
-                  href="#constructor.new_Box"
+                  href="#constructor.new_Rational"
                   aria-label="Permalink"
                   class="tsd-anchor-icon"
                   ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
                 ></a>
               </li>
               <li class="tsd-description">
-                <section class="tsd-panel">
-                  <h4>Type Parameters</h4>
-                  <ul class="tsd-type-parameter-list">
+                <div class="tsd-comment tsd-typography">
+                  <p>Crea un número racional.</p>
+                </div>
+                <div class="tsd-parameters">
+                  <h4 class="tsd-parameters-title">Parameters</h4>
+                  <ul class="tsd-parameter-list">
                     <li>
-                      <h4>
-                        <a id="constructor.new_Box.T-1" class="tsd-anchor"></a
-                        ><span class="tsd-kind-type-parameter">T</span
-                        ><span class="tsd-signature-keyword"> extends </span
-                        ><a
-                          href="../interfaces/Ejercicio_1__La_mudanza_.Item.html"
-                          class="tsd-signature-type tsd-kind-interface"
-                          >Item</a
-                        >
-                      </h4>
+                      <h5>
+                        <span class="tsd-kind-parameter">numerator</span>:
+                        <span class="tsd-signature-type">number</span>
+                      </h5>
+                      <div class="tsd-comment tsd-typography">
+                        <p>Numerador del número racional.</p>
+                      </div>
+                      <div class="tsd-comment tsd-typography"></div>
+                    </li>
+                    <li>
+                      <h5>
+                        <span class="tsd-kind-parameter">denominator</span>:
+                        <span class="tsd-signature-type">number</span>
+                      </h5>
+                      <div class="tsd-comment tsd-typography">
+                        <p>Denominador del número racional.</p>
+                      </div>
+                      <div class="tsd-comment tsd-typography"></div>
                     </li>
                   </ul>
-                </section>
+                </div>
                 <h4 class="tsd-returns-title">
                   Returns
                   <a
-                    href="Ejercicio_1__La_mudanza_.Box.html"
+                    href="modificacion_3.Rational.html"
                     class="tsd-signature-type tsd-kind-class"
-                    >Box</a
-                  ><span class="tsd-signature-symbol">&lt;</span
-                  ><a
-                    class="tsd-signature-type tsd-kind-type-parameter"
-                    href="Ejercicio_1__La_mudanza_.Box.html#constructor.new_Box.T-1"
-                    >T</a
-                  ><span class="tsd-signature-symbol">&gt;</span>
+                    >Rational</a
+                  >
                 </h4>
+                <div class="tsd-comment tsd-typography">
+                  <h4>Throws</h4>
+                  <p>Error si el denominador es cero.</p>
+                </div>
+                <aside class="tsd-sources">
+                  <ul>
+                    <li>
+                      Defined in
+                      <a
+                        href="https://github.com/ULL-ESIT-INF-DSI-2324/ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101349824/blob/a917424/src/modificacion-3.ts#L163"
+                        >modificacion-3.ts:163</a
+                      >
+                    </li>
+                  </ul>
+                </aside>
               </li>
             </ul>
           </section>
         </section>
         <section class="tsd-panel-group tsd-member-group">
           <h2>Properties</h2>
-          <section class="tsd-panel tsd-member tsd-is-private">
-            <a id="contents" class="tsd-anchor"></a>
+          <section class="tsd-panel tsd-member">
+            <a id="denominator" class="tsd-anchor"></a>
             <h3 class="tsd-anchor-link">
-              <code class="tsd-tag ts-flagPrivate">Private</code>
-              <span>contents</span
+              <span>denominator</span
               ><a
-                href="#contents"
+                href="#denominator"
                 aria-label="Permalink"
                 class="tsd-anchor-icon"
                 ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
               ></a>
             </h3>
             <div class="tsd-signature">
-              <span class="tsd-kind-property">contents</span
+              <span class="tsd-kind-property">denominator</span
               ><span class="tsd-signature-symbol">:</span>
-              <a
-                class="tsd-signature-type tsd-kind-type-parameter"
-                href="Ejercicio_1__La_mudanza_.Box.html#constructor.new_Box.T-1"
-                >T</a
-              ><span class="tsd-signature-symbol">[]</span
-              ><span class="tsd-signature-symbol"> = []</span>
+              <span class="tsd-signature-type">number</span>
             </div>
             <div class="tsd-comment tsd-typography">
-              <p>Los enseres contenidos en la caja.</p>
+              <p>Denominador del número racional.</p>
             </div>
-            <div class="tsd-comment tsd-typography"></div>
+            <div class="tsd-comment tsd-typography">
+              <h4>Memberof</h4>
+              <p>Rational</p>
+            </div>
             <aside class="tsd-sources">
               <ul>
                 <li>
                   Defined in
                   <a
-                    href="https://github.com/ULL-ESIT-INF-DSI-2324/ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101349824/blob/a917424/src/ejercicio-1.ts#L34"
-                    >ejercicio-1.ts:34</a
+                    href="https://github.com/ULL-ESIT-INF-DSI-2324/ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101349824/blob/a917424/src/modificacion-3.ts#L177"
+                    >modificacion-3.ts:177</a
+                  >
+                </li>
+              </ul>
+            </aside>
+          </section>
+          <section class="tsd-panel tsd-member">
+            <a id="numerator" class="tsd-anchor"></a>
+            <h3 class="tsd-anchor-link">
+              <span>numerator</span
+              ><a
+                href="#numerator"
+                aria-label="Permalink"
+                class="tsd-anchor-icon"
+                ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
+              ></a>
+            </h3>
+            <div class="tsd-signature">
+              <span class="tsd-kind-property">numerator</span
+              ><span class="tsd-signature-symbol">:</span>
+              <span class="tsd-signature-type">number</span>
+            </div>
+            <div class="tsd-comment tsd-typography">
+              <p>Numerador del número racional.</p>
+            </div>
+            <div class="tsd-comment tsd-typography">
+              <h4>Memberof</h4>
+              <p>Rational</p>
+            </div>
+            <aside class="tsd-sources">
+              <ul>
+                <li>
+                  Defined in
+                  <a
+                    href="https://github.com/ULL-ESIT-INF-DSI-2324/ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101349824/blob/a917424/src/modificacion-3.ts#L170"
+                    >modificacion-3.ts:170</a
                   >
                 </li>
               </ul>
@@ -327,24 +399,27 @@
         <section class="tsd-panel-group tsd-member-group">
           <h2>Methods</h2>
           <section class="tsd-panel tsd-member">
-            <a id="addItem" class="tsd-anchor"></a>
+            <a id="add" class="tsd-anchor"></a>
             <h3 class="tsd-anchor-link">
-              <span>add<wbr />Item</span
-              ><a href="#addItem" aria-label="Permalink" class="tsd-anchor-icon"
+              <span>add</span
+              ><a href="#add" aria-label="Permalink" class="tsd-anchor-icon"
                 ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
               ></a>
             </h3>
             <ul class="tsd-signatures">
               <li class="tsd-signature tsd-anchor-link">
-                <a id="addItem.addItem-1" class="tsd-anchor"></a
-                ><span class="tsd-kind-call-signature">add<wbr />Item</span
+                <a id="add.add-1" class="tsd-anchor"></a
+                ><span class="tsd-kind-call-signature">add</span
                 ><span class="tsd-signature-symbol">(</span
-                ><span class="tsd-kind-parameter">item</span
+                ><span class="tsd-kind-parameter">other</span
                 ><span class="tsd-signature-symbol">)</span
                 ><span class="tsd-signature-symbol">: </span
-                ><span class="tsd-signature-type">void</span
                 ><a
-                  href="#addItem.addItem-1"
+                  href="modificacion_3.Rational.html"
+                  class="tsd-signature-type tsd-kind-class"
+                  >Rational</a
+                ><a
+                  href="#add.add-1"
                   aria-label="Permalink"
                   class="tsd-anchor-icon"
                   ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
@@ -352,131 +427,22 @@
               </li>
               <li class="tsd-description">
                 <div class="tsd-comment tsd-typography">
-                  <p>Añade un enser a la caja.</p>
+                  <p>Realiza la suma de dos números racionales.</p>
                 </div>
                 <div class="tsd-parameters">
                   <h4 class="tsd-parameters-title">Parameters</h4>
                   <ul class="tsd-parameter-list">
                     <li>
                       <h5>
-                        <span class="tsd-kind-parameter">item</span>:
+                        <span class="tsd-kind-parameter">other</span>:
                         <a
-                          class="tsd-signature-type tsd-kind-type-parameter"
-                          href="Ejercicio_1__La_mudanza_.Box.html#constructor.new_Box.T-1"
-                          >T</a
+                          href="modificacion_3.Rational.html"
+                          class="tsd-signature-type tsd-kind-class"
+                          >Rational</a
                         >
                       </h5>
                       <div class="tsd-comment tsd-typography">
-                        <p>El enser a añadir.</p>
-                      </div>
-                      <div class="tsd-comment tsd-typography"></div>
-                    </li>
-                  </ul>
-                </div>
-                <h4 class="tsd-returns-title">
-                  Returns <span class="tsd-signature-type">void</span>
-                </h4>
-                <div class="tsd-comment tsd-typography">
-                  <h4>Throws</h4>
-                  <p>Error si se intenta añadir un enser duplicado.</p>
-                </div>
-                <aside class="tsd-sources">
-                  <ul>
-                    <li>
-                      Defined in
-                      <a
-                        href="https://github.com/ULL-ESIT-INF-DSI-2324/ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101349824/blob/a917424/src/ejercicio-1.ts#L41"
-                        >ejercicio-1.ts:41</a
-                      >
-                    </li>
-                  </ul>
-                </aside>
-              </li>
-            </ul>
-          </section>
-          <section class="tsd-panel tsd-member">
-            <a id="findItem" class="tsd-anchor"></a>
-            <h3 class="tsd-anchor-link">
-              <span>find<wbr />Item</span
-              ><a
-                href="#findItem"
-                aria-label="Permalink"
-                class="tsd-anchor-icon"
-                ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
-              ></a>
-            </h3>
-            <ul class="tsd-signatures">
-              <li class="tsd-signature tsd-anchor-link">
-                <a id="findItem.findItem-1" class="tsd-anchor"></a
-                ><span class="tsd-kind-call-signature">find<wbr />Item</span
-                ><span class="tsd-signature-symbol">(</span
-                ><span class="tsd-kind-parameter">key</span>,
-                <span class="tsd-kind-parameter">value</span
-                ><span class="tsd-signature-symbol">)</span
-                ><span class="tsd-signature-symbol">: </span
-                ><a
-                  class="tsd-signature-type tsd-kind-type-parameter"
-                  href="Ejercicio_1__La_mudanza_.Box.html#constructor.new_Box.T-1"
-                  >T</a
-                ><span class="tsd-signature-symbol">[]</span
-                ><a
-                  href="#findItem.findItem-1"
-                  aria-label="Permalink"
-                  class="tsd-anchor-icon"
-                  ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
-                ></a>
-              </li>
-              <li class="tsd-description">
-                <div class="tsd-comment tsd-typography">
-                  <p>
-                    Busca un enser en la caja por uno de sus atributos. Puede
-                    buscar por nombre, por peso, por si es frágil o por su
-                    valor. Si hay más de un enser que cumple la condición,
-                    devuelve una lista con todos los enseres.
-                  </p>
-                </div>
-                <div class="tsd-parameters">
-                  <h4 class="tsd-parameters-title">Parameters</h4>
-                  <ul class="tsd-parameter-list">
-                    <li>
-                      <h5>
-                        <span class="tsd-kind-parameter">key</span>:
-                        <span class="tsd-signature-keyword">keyof </span
-                        ><a
-                          class="tsd-signature-type tsd-kind-type-parameter"
-                          href="Ejercicio_1__La_mudanza_.Box.html#constructor.new_Box.T-1"
-                          >T</a
-                        >
-                      </h5>
-                      <div class="tsd-comment tsd-typography">
-                        <p>
-                          El atributo por el que buscar. Puede ser
-                          &#39;name&#39;, &#39;weight&#39;, &#39;fragile&#39; o
-                          &#39;value&#39;.
-                        </p>
-                      </div>
-                      <div class="tsd-comment tsd-typography"></div>
-                    </li>
-                    <li>
-                      <h5>
-                        <span class="tsd-kind-parameter">value</span>:
-                        <a
-                          class="tsd-signature-type tsd-kind-type-parameter"
-                          href="Ejercicio_1__La_mudanza_.Box.html#constructor.new_Box.T-1"
-                          >T</a
-                        ><span class="tsd-signature-symbol">[</span
-                        ><span class="tsd-signature-keyword">keyof </span
-                        ><a
-                          class="tsd-signature-type tsd-kind-type-parameter"
-                          href="Ejercicio_1__La_mudanza_.Box.html#constructor.new_Box.T-1"
-                          >T</a
-                        ><span class="tsd-signature-symbol">]</span>
-                      </h5>
-                      <div class="tsd-comment tsd-typography">
-                        <p>
-                          El valor del atributo por el que buscar. Puede ser un
-                          string, un número o un booleano.
-                        </p>
+                        <p>Número racional a sumar.</p>
                       </div>
                       <div class="tsd-comment tsd-typography"></div>
                     </li>
@@ -485,74 +451,29 @@
                 <h4 class="tsd-returns-title">
                   Returns
                   <a
-                    class="tsd-signature-type tsd-kind-type-parameter"
-                    href="Ejercicio_1__La_mudanza_.Box.html#constructor.new_Box.T-1"
-                    >T</a
-                  ><span class="tsd-signature-symbol">[]</span>
+                    href="modificacion_3.Rational.html"
+                    class="tsd-signature-type tsd-kind-class"
+                    >Rational</a
+                  >
                 </h4>
-                <p>El enser o enseres encontrados.</p>
+                <p>La suma de este número racional con otro.</p>
                 <div class="tsd-comment tsd-typography"></div>
                 <aside class="tsd-sources">
-                  <ul>
-                    <li>
-                      Defined in
-                      <a
-                        href="https://github.com/ULL-ESIT-INF-DSI-2324/ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101349824/blob/a917424/src/ejercicio-1.ts#L88"
-                        >ejercicio-1.ts:88</a
-                      >
-                    </li>
-                  </ul>
-                </aside>
-              </li>
-            </ul>
-          </section>
-          <section class="tsd-panel tsd-member">
-            <a id="listItems" class="tsd-anchor"></a>
-            <h3 class="tsd-anchor-link">
-              <span>list<wbr />Items</span
-              ><a
-                href="#listItems"
-                aria-label="Permalink"
-                class="tsd-anchor-icon"
-                ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
-              ></a>
-            </h3>
-            <ul class="tsd-signatures">
-              <li class="tsd-signature tsd-anchor-link">
-                <a id="listItems.listItems-1" class="tsd-anchor"></a
-                ><span class="tsd-kind-call-signature">list<wbr />Items</span
-                ><span class="tsd-signature-symbol">(</span
-                ><span class="tsd-signature-symbol">)</span
-                ><span class="tsd-signature-symbol">: </span
-                ><span class="tsd-signature-type">void</span
-                ><a
-                  href="#listItems.listItems-1"
-                  aria-label="Permalink"
-                  class="tsd-anchor-icon"
-                  ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
-                ></a>
-              </li>
-              <li class="tsd-description">
-                <div class="tsd-comment tsd-typography">
                   <p>
-                    Imprime por consola los enseres contenidos en la caja.
-                    Imprime el nombre, el peso, si es frágil y el valor de cada
-                    enser. Hay que tener cuenta que el enser puede no tener
-                    todos los atributos. Si un atributo no está definido, se
-                    imprime &quot;N/A&quot;.
+                    Implementation of
+                    <a href="../interfaces/modificacion_3.Arithmeticable.html"
+                      >Arithmeticable</a
+                    >.<a
+                      href="../interfaces/modificacion_3.Arithmeticable.html#add"
+                      >add</a
+                    >
                   </p>
-                </div>
-                <h4 class="tsd-returns-title">
-                  Returns <span class="tsd-signature-type">void</span>
-                </h4>
-                <div class="tsd-comment tsd-typography"></div>
-                <aside class="tsd-sources">
                   <ul>
                     <li>
                       Defined in
                       <a
-                        href="https://github.com/ULL-ESIT-INF-DSI-2324/ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101349824/blob/a917424/src/ejercicio-1.ts#L72"
-                        >ejercicio-1.ts:72</a
+                        href="https://github.com/ULL-ESIT-INF-DSI-2324/ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101349824/blob/a917424/src/modificacion-3.ts#L190"
+                        >modificacion-3.ts:190</a
                       >
                     </li>
                   </ul>
@@ -561,27 +482,27 @@
             </ul>
           </section>
           <section class="tsd-panel tsd-member">
-            <a id="removeItem" class="tsd-anchor"></a>
+            <a id="divide" class="tsd-anchor"></a>
             <h3 class="tsd-anchor-link">
-              <span>remove<wbr />Item</span
-              ><a
-                href="#removeItem"
-                aria-label="Permalink"
-                class="tsd-anchor-icon"
+              <span>divide</span
+              ><a href="#divide" aria-label="Permalink" class="tsd-anchor-icon"
                 ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
               ></a>
             </h3>
             <ul class="tsd-signatures">
               <li class="tsd-signature tsd-anchor-link">
-                <a id="removeItem.removeItem-1" class="tsd-anchor"></a
-                ><span class="tsd-kind-call-signature">remove<wbr />Item</span
+                <a id="divide.divide-1" class="tsd-anchor"></a
+                ><span class="tsd-kind-call-signature">divide</span
                 ><span class="tsd-signature-symbol">(</span
-                ><span class="tsd-kind-parameter">name</span
+                ><span class="tsd-kind-parameter">other</span
                 ><span class="tsd-signature-symbol">)</span
                 ><span class="tsd-signature-symbol">: </span
-                ><span class="tsd-signature-type">void</span
                 ><a
-                  href="#removeItem.removeItem-1"
+                  href="modificacion_3.Rational.html"
+                  class="tsd-signature-type tsd-kind-class"
+                  >Rational</a
+                ><a
+                  href="#divide.divide-1"
                   aria-label="Permalink"
                   class="tsd-anchor-icon"
                   ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
@@ -589,37 +510,412 @@
               </li>
               <li class="tsd-description">
                 <div class="tsd-comment tsd-typography">
-                  <p>Elimina un enser de la caja por su nombre.</p>
+                  <p>Realiza la división de dos números racionales.</p>
                 </div>
                 <div class="tsd-parameters">
                   <h4 class="tsd-parameters-title">Parameters</h4>
                   <ul class="tsd-parameter-list">
                     <li>
                       <h5>
-                        <span class="tsd-kind-parameter">name</span>:
-                        <span class="tsd-signature-type">string</span>
+                        <span class="tsd-kind-parameter">other</span>:
+                        <a
+                          href="modificacion_3.Rational.html"
+                          class="tsd-signature-type tsd-kind-class"
+                          >Rational</a
+                        >
                       </h5>
                       <div class="tsd-comment tsd-typography">
-                        <p>El nombre del enser a eliminar.</p>
+                        <p>Número racional a dividir.</p>
                       </div>
                       <div class="tsd-comment tsd-typography"></div>
                     </li>
                   </ul>
                 </div>
                 <h4 class="tsd-returns-title">
-                  Returns <span class="tsd-signature-type">void</span>
+                  Returns
+                  <a
+                    href="modificacion_3.Rational.html"
+                    class="tsd-signature-type tsd-kind-class"
+                    >Rational</a
+                  >
                 </h4>
+                <p>La división de este número racional entre otro.</p>
                 <div class="tsd-comment tsd-typography">
                   <h4>Throws</h4>
-                  <p>Error si no se encuentra el enser.</p>
+                  <p>
+                    Error si el numerador del número racional
+                    <code>other</code> es cero.
+                  </p>
                 </div>
+                <aside class="tsd-sources">
+                  <p>
+                    Implementation of
+                    <a href="../interfaces/modificacion_3.Arithmeticable.html"
+                      >Arithmeticable</a
+                    >.<a
+                      href="../interfaces/modificacion_3.Arithmeticable.html#divide"
+                      >divide</a
+                    >
+                  </p>
+                  <ul>
+                    <li>
+                      Defined in
+                      <a
+                        href="https://github.com/ULL-ESIT-INF-DSI-2324/ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101349824/blob/a917424/src/modificacion-3.ts#L227"
+                        >modificacion-3.ts:227</a
+                      >
+                    </li>
+                  </ul>
+                </aside>
+              </li>
+            </ul>
+          </section>
+          <section class="tsd-panel tsd-member tsd-is-private">
+            <a id="mcd" class="tsd-anchor"></a>
+            <h3 class="tsd-anchor-link">
+              <code class="tsd-tag ts-flagPrivate">Private</code>
+              <span>mcd</span
+              ><a href="#mcd" aria-label="Permalink" class="tsd-anchor-icon"
+                ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
+              ></a>
+            </h3>
+            <ul class="tsd-signatures tsd-is-private">
+              <li class="tsd-signature tsd-anchor-link">
+                <a id="mcd.mcd-1" class="tsd-anchor"></a
+                ><span class="tsd-kind-call-signature">mcd</span
+                ><span class="tsd-signature-symbol">(</span
+                ><span class="tsd-kind-parameter">a</span>,
+                <span class="tsd-kind-parameter">b</span
+                ><span class="tsd-signature-symbol">)</span
+                ><span class="tsd-signature-symbol">: </span
+                ><span class="tsd-signature-type">number</span
+                ><a
+                  href="#mcd.mcd-1"
+                  aria-label="Permalink"
+                  class="tsd-anchor-icon"
+                  ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
+                ></a>
+              </li>
+              <li class="tsd-description">
+                <div class="tsd-comment tsd-typography">
+                  <p>Calcula el máximo común divisor (MCD) de dos números.</p>
+                </div>
+                <div class="tsd-parameters">
+                  <h4 class="tsd-parameters-title">Parameters</h4>
+                  <ul class="tsd-parameter-list">
+                    <li>
+                      <h5>
+                        <span class="tsd-kind-parameter">a</span>:
+                        <span class="tsd-signature-type">number</span>
+                      </h5>
+                      <div class="tsd-comment tsd-typography">
+                        <p>Primer número.</p>
+                      </div>
+                      <div class="tsd-comment tsd-typography"></div>
+                    </li>
+                    <li>
+                      <h5>
+                        <span class="tsd-kind-parameter">b</span>:
+                        <span class="tsd-signature-type">number</span>
+                      </h5>
+                      <div class="tsd-comment tsd-typography">
+                        <p>Segundo número.</p>
+                      </div>
+                      <div class="tsd-comment tsd-typography"></div>
+                    </li>
+                  </ul>
+                </div>
+                <h4 class="tsd-returns-title">
+                  Returns <span class="tsd-signature-type">number</span>
+                </h4>
+                <p>El MCD de a y b.</p>
+                <div class="tsd-comment tsd-typography"></div>
                 <aside class="tsd-sources">
                   <ul>
                     <li>
                       Defined in
                       <a
-                        href="https://github.com/ULL-ESIT-INF-DSI-2324/ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101349824/blob/a917424/src/ejercicio-1.ts#L57"
-                        >ejercicio-1.ts:57</a
+                        href="https://github.com/ULL-ESIT-INF-DSI-2324/ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101349824/blob/a917424/src/modificacion-3.ts#L256"
+                        >modificacion-3.ts:256</a
+                      >
+                    </li>
+                  </ul>
+                </aside>
+              </li>
+            </ul>
+          </section>
+          <section class="tsd-panel tsd-member">
+            <a id="multiply" class="tsd-anchor"></a>
+            <h3 class="tsd-anchor-link">
+              <span>multiply</span
+              ><a
+                href="#multiply"
+                aria-label="Permalink"
+                class="tsd-anchor-icon"
+                ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
+              ></a>
+            </h3>
+            <ul class="tsd-signatures">
+              <li class="tsd-signature tsd-anchor-link">
+                <a id="multiply.multiply-1" class="tsd-anchor"></a
+                ><span class="tsd-kind-call-signature">multiply</span
+                ><span class="tsd-signature-symbol">(</span
+                ><span class="tsd-kind-parameter">other</span
+                ><span class="tsd-signature-symbol">)</span
+                ><span class="tsd-signature-symbol">: </span
+                ><a
+                  href="modificacion_3.Rational.html"
+                  class="tsd-signature-type tsd-kind-class"
+                  >Rational</a
+                ><a
+                  href="#multiply.multiply-1"
+                  aria-label="Permalink"
+                  class="tsd-anchor-icon"
+                  ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
+                ></a>
+              </li>
+              <li class="tsd-description">
+                <div class="tsd-comment tsd-typography">
+                  <p>Realiza la multiplicación de dos números racionales.</p>
+                </div>
+                <div class="tsd-parameters">
+                  <h4 class="tsd-parameters-title">Parameters</h4>
+                  <ul class="tsd-parameter-list">
+                    <li>
+                      <h5>
+                        <span class="tsd-kind-parameter">other</span>:
+                        <a
+                          href="modificacion_3.Rational.html"
+                          class="tsd-signature-type tsd-kind-class"
+                          >Rational</a
+                        >
+                      </h5>
+                      <div class="tsd-comment tsd-typography">
+                        <p>Número racional a multiplicar.</p>
+                      </div>
+                      <div class="tsd-comment tsd-typography"></div>
+                    </li>
+                  </ul>
+                </div>
+                <h4 class="tsd-returns-title">
+                  Returns
+                  <a
+                    href="modificacion_3.Rational.html"
+                    class="tsd-signature-type tsd-kind-class"
+                    >Rational</a
+                  >
+                </h4>
+                <p>La multiplicación de este número racional con otro.</p>
+                <div class="tsd-comment tsd-typography"></div>
+                <aside class="tsd-sources">
+                  <p>
+                    Implementation of
+                    <a href="../interfaces/modificacion_3.Arithmeticable.html"
+                      >Arithmeticable</a
+                    >.<a
+                      href="../interfaces/modificacion_3.Arithmeticable.html#multiply"
+                      >multiply</a
+                    >
+                  </p>
+                  <ul>
+                    <li>
+                      Defined in
+                      <a
+                        href="https://github.com/ULL-ESIT-INF-DSI-2324/ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101349824/blob/a917424/src/modificacion-3.ts#L214"
+                        >modificacion-3.ts:214</a
+                      >
+                    </li>
+                  </ul>
+                </aside>
+              </li>
+            </ul>
+          </section>
+          <section class="tsd-panel tsd-member tsd-is-private">
+            <a id="simplify" class="tsd-anchor"></a>
+            <h3 class="tsd-anchor-link">
+              <code class="tsd-tag ts-flagPrivate">Private</code>
+              <span>simplify</span
+              ><a
+                href="#simplify"
+                aria-label="Permalink"
+                class="tsd-anchor-icon"
+                ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
+              ></a>
+            </h3>
+            <ul class="tsd-signatures tsd-is-private">
+              <li class="tsd-signature tsd-anchor-link">
+                <a id="simplify.simplify-1" class="tsd-anchor"></a
+                ><span class="tsd-kind-call-signature">simplify</span
+                ><span class="tsd-signature-symbol">(</span
+                ><span class="tsd-signature-symbol">)</span
+                ><span class="tsd-signature-symbol">: </span
+                ><a
+                  href="modificacion_3.Rational.html"
+                  class="tsd-signature-type tsd-kind-class"
+                  >Rational</a
+                ><a
+                  href="#simplify.simplify-1"
+                  aria-label="Permalink"
+                  class="tsd-anchor-icon"
+                  ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
+                ></a>
+              </li>
+              <li class="tsd-description">
+                <div class="tsd-comment tsd-typography">
+                  <p>Simplifica el número racional a su forma más simple.</p>
+                </div>
+                <h4 class="tsd-returns-title">
+                  Returns
+                  <a
+                    href="modificacion_3.Rational.html"
+                    class="tsd-signature-type tsd-kind-class"
+                    >Rational</a
+                  >
+                </h4>
+                <p>El número racional simplificado.</p>
+                <div class="tsd-comment tsd-typography"></div>
+                <aside class="tsd-sources">
+                  <ul>
+                    <li>
+                      Defined in
+                      <a
+                        href="https://github.com/ULL-ESIT-INF-DSI-2324/ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101349824/blob/a917424/src/modificacion-3.ts#L243"
+                        >modificacion-3.ts:243</a
+                      >
+                    </li>
+                  </ul>
+                </aside>
+              </li>
+            </ul>
+          </section>
+          <section class="tsd-panel tsd-member">
+            <a id="subtract" class="tsd-anchor"></a>
+            <h3 class="tsd-anchor-link">
+              <span>subtract</span
+              ><a
+                href="#subtract"
+                aria-label="Permalink"
+                class="tsd-anchor-icon"
+                ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
+              ></a>
+            </h3>
+            <ul class="tsd-signatures">
+              <li class="tsd-signature tsd-anchor-link">
+                <a id="subtract.subtract-1" class="tsd-anchor"></a
+                ><span class="tsd-kind-call-signature">subtract</span
+                ><span class="tsd-signature-symbol">(</span
+                ><span class="tsd-kind-parameter">other</span
+                ><span class="tsd-signature-symbol">)</span
+                ><span class="tsd-signature-symbol">: </span
+                ><a
+                  href="modificacion_3.Rational.html"
+                  class="tsd-signature-type tsd-kind-class"
+                  >Rational</a
+                ><a
+                  href="#subtract.subtract-1"
+                  aria-label="Permalink"
+                  class="tsd-anchor-icon"
+                  ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
+                ></a>
+              </li>
+              <li class="tsd-description">
+                <div class="tsd-comment tsd-typography">
+                  <p>Realiza la resta de dos números racionales.</p>
+                </div>
+                <div class="tsd-parameters">
+                  <h4 class="tsd-parameters-title">Parameters</h4>
+                  <ul class="tsd-parameter-list">
+                    <li>
+                      <h5>
+                        <span class="tsd-kind-parameter">other</span>:
+                        <a
+                          href="modificacion_3.Rational.html"
+                          class="tsd-signature-type tsd-kind-class"
+                          >Rational</a
+                        >
+                      </h5>
+                      <div class="tsd-comment tsd-typography">
+                        <p>Número racional a restar.</p>
+                      </div>
+                      <div class="tsd-comment tsd-typography"></div>
+                    </li>
+                  </ul>
+                </div>
+                <h4 class="tsd-returns-title">
+                  Returns
+                  <a
+                    href="modificacion_3.Rational.html"
+                    class="tsd-signature-type tsd-kind-class"
+                    >Rational</a
+                  >
+                </h4>
+                <p>La resta de este número racional con otro.</p>
+                <div class="tsd-comment tsd-typography"></div>
+                <aside class="tsd-sources">
+                  <p>
+                    Implementation of
+                    <a href="../interfaces/modificacion_3.Arithmeticable.html"
+                      >Arithmeticable</a
+                    >.<a
+                      href="../interfaces/modificacion_3.Arithmeticable.html#subtract"
+                      >subtract</a
+                    >
+                  </p>
+                  <ul>
+                    <li>
+                      Defined in
+                      <a
+                        href="https://github.com/ULL-ESIT-INF-DSI-2324/ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101349824/blob/a917424/src/modificacion-3.ts#L202"
+                        >modificacion-3.ts:202</a
+                      >
+                    </li>
+                  </ul>
+                </aside>
+              </li>
+            </ul>
+          </section>
+          <section class="tsd-panel tsd-member">
+            <a id="toString" class="tsd-anchor"></a>
+            <h3 class="tsd-anchor-link">
+              <span>to<wbr />String</span
+              ><a
+                href="#toString"
+                aria-label="Permalink"
+                class="tsd-anchor-icon"
+                ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
+              ></a>
+            </h3>
+            <ul class="tsd-signatures">
+              <li class="tsd-signature tsd-anchor-link">
+                <a id="toString.toString-1" class="tsd-anchor"></a
+                ><span class="tsd-kind-call-signature">to<wbr />String</span
+                ><span class="tsd-signature-symbol">(</span
+                ><span class="tsd-signature-symbol">)</span
+                ><span class="tsd-signature-symbol">: </span
+                ><span class="tsd-signature-type">string</span
+                ><a
+                  href="#toString.toString-1"
+                  aria-label="Permalink"
+                  class="tsd-anchor-icon"
+                  ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
+                ></a>
+              </li>
+              <li class="tsd-description">
+                <div class="tsd-comment tsd-typography">
+                  <p>Convierte el número racional a una cadena de texto.</p>
+                </div>
+                <h4 class="tsd-returns-title">
+                  Returns <span class="tsd-signature-type">string</span>
+                </h4>
+                <p>Representación en cadena del número racional.</p>
+                <div class="tsd-comment tsd-typography"></div>
+                <aside class="tsd-sources">
+                  <ul>
+                    <li>
+                      Defined in
+                      <a
+                        href="https://github.com/ULL-ESIT-INF-DSI-2324/ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101349824/blob/a917424/src/modificacion-3.ts#L264"
+                        >modificacion-3.ts:264</a
                       >
                     </li>
                   </ul>
@@ -806,38 +1102,66 @@
                   >
                 </li>
                 <li>
-                  <a href="#contents" class="tsd-is-private"
+                  <a href="#denominator" class=""
                     ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
                       <use href="#icon-1024"></use></svg
-                    ><span>contents</span></a
+                    ><span>denominator</span></a
                   >
                 </li>
                 <li>
-                  <a href="#addItem" class=""
+                  <a href="#numerator" class=""
                     ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
-                      <use href="#icon-2048"></use></svg
-                    ><span>add<wbr />Item</span></a
+                      <use href="#icon-1024"></use></svg
+                    ><span>numerator</span></a
                   >
                 </li>
                 <li>
-                  <a href="#findItem" class=""
+                  <a href="#add" class=""
                     ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
                       <use href="#icon-2048"></use></svg
-                    ><span>find<wbr />Item</span></a
+                    ><span>add</span></a
                   >
                 </li>
                 <li>
-                  <a href="#listItems" class=""
+                  <a href="#divide" class=""
                     ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
                       <use href="#icon-2048"></use></svg
-                    ><span>list<wbr />Items</span></a
+                    ><span>divide</span></a
                   >
                 </li>
                 <li>
-                  <a href="#removeItem" class=""
+                  <a href="#mcd" class="tsd-is-private"
                     ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
                       <use href="#icon-2048"></use></svg
-                    ><span>remove<wbr />Item</span></a
+                    ><span>mcd</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#multiply" class=""
+                    ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
+                      <use href="#icon-2048"></use></svg
+                    ><span>multiply</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#simplify" class="tsd-is-private"
+                    ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
+                      <use href="#icon-2048"></use></svg
+                    ><span>simplify</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#subtract" class=""
+                    ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
+                      <use href="#icon-2048"></use></svg
+                    ><span>subtract</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#toString" class=""
+                    ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
+                      <use href="#icon-2048"></use></svg
+                    ><span>to<wbr />String</span></a
                   >
                 </li>
               </ul>

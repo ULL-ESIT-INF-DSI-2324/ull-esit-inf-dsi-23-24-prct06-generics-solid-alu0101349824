@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="IE=edge" />
     <title>
-      Box | ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101349824
+      Complex | ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101349824
     </title>
     <meta
       name="description"
@@ -65,53 +65,56 @@
               >
             </li>
             <li>
-              <a href="../modules/Ejercicio_1__La_mudanza_.html"
-                >Ejercicio 1: La mudanza.</a
+              <a href="../modules/Modificaci_n_arreglada__PE101_.html"
+                >Modificación arreglada: PE101.</a
               >
             </li>
-            <li><a href="Ejercicio_1__La_mudanza_.Box.html">Box</a></li>
+            <li>
+              <a href="Modificaci_n_arreglada__PE101_.Complex.html">Complex</a>
+            </li>
           </ul>
-          <h1>Class Box&lt;T&gt;</h1>
+          <h1>Class Complex</h1>
         </div>
         <section class="tsd-panel tsd-comment">
           <div class="tsd-comment tsd-typography">
-            <p>Representa una caja que puede contener varios enseres.</p>
+            <p>
+              Clase <code>Complex</code> que representa un número complejo y
+              cumple con <code>Arithmeticable</code>. Esta clase permite
+              realizar operaciones aritméticas con números complejos. Implementa
+              los métodos para sumar, restar, multiplicar y dividir. Es hijo de
+              <code>Arithmeticable</code> y exige que los números complejos
+              implementen la interfaz <code>Arithmeticable</code>.
+            </p>
           </div>
           <div class="tsd-comment tsd-typography">
             <h4>Method</h4>
-            <p>addItem Añade un enser a la caja.</p>
+            <p>add Suma de dos números complejos.</p>
             <h4>Method</h4>
-            <p>removeItem Elimina un enser de la caja por su nombre.</p>
+            <p>subtract Resta de dos números complejos.</p>
             <h4>Method</h4>
-            <p>
-              listItems Imprime por consola los enseres contenidos en la caja.
-            </p>
+            <p>multiply Multiplicación de dos números complejos.</p>
             <h4>Method</h4>
-            <p>findItem Busca un enser en la caja por su nombre.</p>
-            <h4>Throws</h4>
-            <p>Error si se intenta añadir un enser duplicado.</p>
+            <p>divide División de dos números complejos.</p>
+            <h4>Method</h4>
+            <p>toString Convierte el número complejo a una cadena de texto.</p>
             <h4>Returns</h4>
-            <p>El enser encontrado o undefined si no se encuentra.</p>
+            <p>El resultado de la operación aritmética.</p>
           </div>
         </section>
         <section class="tsd-panel">
-          <h4>Type Parameters</h4>
-          <ul class="tsd-type-parameter-list">
+          <h4>Implements</h4>
+          <ul class="tsd-hierarchy">
             <li>
-              <h4>
-                <a id="T" class="tsd-anchor"></a
-                ><span class="tsd-kind-type-parameter">T</span
-                ><span class="tsd-signature-keyword"> extends </span
-                ><a
-                  href="../interfaces/Ejercicio_1__La_mudanza_.Item.html"
-                  class="tsd-signature-type tsd-kind-interface"
-                  >Item</a
-                >
-              </h4>
-              <div class="tsd-comment tsd-typography">
-                <p>El tipo de enser que puede contener la caja.</p>
-              </div>
-              <div class="tsd-comment tsd-typography"></div>
+              <a
+                href="../interfaces/Modificaci_n_arreglada__PE101_.Arithmeticable.html"
+                class="tsd-signature-type tsd-kind-interface"
+                >Arithmeticable</a
+              ><span class="tsd-signature-symbol">&lt;</span
+              ><a
+                href="Modificaci_n_arreglada__PE101_.Complex.html"
+                class="tsd-signature-type tsd-kind-class"
+                >Complex</a
+              ><span class="tsd-signature-symbol">&gt;</span>
             </li>
           </ul>
         </section>
@@ -120,8 +123,8 @@
             <li>
               Defined in
               <a
-                href="https://github.com/ULL-ESIT-INF-DSI-2324/ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101349824/blob/a917424/src/ejercicio-1.ts#L33"
-                >ejercicio-1.ts:33</a
+                href="https://github.com/ULL-ESIT-INF-DSI-2324/ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101349824/blob/a917424/src/modificacion-arreglada.ts#L120"
+                >modificacion-arreglada.ts:120</a
               >
             </li>
           </ul>
@@ -147,7 +150,7 @@
                   <h3 class="tsd-index-heading">Constructors</h3>
                   <div class="tsd-index-list">
                     <a
-                      href="Ejercicio_1__La_mudanza_.Box.html#constructor"
+                      href="Modificaci_n_arreglada__PE101_.Complex.html#constructor"
                       class="tsd-index-link"
                       ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
                         <use href="#icon-512"></use></svg
@@ -159,11 +162,18 @@
                   <h3 class="tsd-index-heading">Properties</h3>
                   <div class="tsd-index-list">
                     <a
-                      href="Ejercicio_1__La_mudanza_.Box.html#contents"
+                      href="Modificaci_n_arreglada__PE101_.Complex.html#imaginary"
                       class="tsd-index-link tsd-is-private"
                       ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
                         <use href="#icon-1024"></use></svg
-                      ><span>contents</span></a
+                      ><span>imaginary</span></a
+                    >
+                    <a
+                      href="Modificaci_n_arreglada__PE101_.Complex.html#real"
+                      class="tsd-index-link tsd-is-private"
+                      ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
+                        <use href="#icon-1024"></use></svg
+                      ><span>real</span></a
                     >
                   </div>
                 </section>
@@ -171,32 +181,39 @@
                   <h3 class="tsd-index-heading">Methods</h3>
                   <div class="tsd-index-list">
                     <a
-                      href="Ejercicio_1__La_mudanza_.Box.html#addItem"
+                      href="Modificaci_n_arreglada__PE101_.Complex.html#add"
                       class="tsd-index-link"
                       ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
                         <use href="#icon-2048"></use></svg
-                      ><span>add<wbr />Item</span></a
+                      ><span>add</span></a
                     >
                     <a
-                      href="Ejercicio_1__La_mudanza_.Box.html#findItem"
+                      href="Modificaci_n_arreglada__PE101_.Complex.html#divide"
                       class="tsd-index-link"
                       ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
                         <use href="#icon-2048"></use></svg
-                      ><span>find<wbr />Item</span></a
+                      ><span>divide</span></a
                     >
                     <a
-                      href="Ejercicio_1__La_mudanza_.Box.html#listItems"
+                      href="Modificaci_n_arreglada__PE101_.Complex.html#multiply"
                       class="tsd-index-link"
                       ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
                         <use href="#icon-2048"></use></svg
-                      ><span>list<wbr />Items</span></a
+                      ><span>multiply</span></a
                     >
                     <a
-                      href="Ejercicio_1__La_mudanza_.Box.html#removeItem"
+                      href="Modificaci_n_arreglada__PE101_.Complex.html#subtract"
                       class="tsd-index-link"
                       ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
                         <use href="#icon-2048"></use></svg
-                      ><span>remove<wbr />Item</span></a
+                      ><span>subtract</span></a
+                    >
+                    <a
+                      href="Modificaci_n_arreglada__PE101_.Complex.html#toString"
+                      class="tsd-index-link"
+                      ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
+                        <use href="#icon-2048"></use></svg
+                      ><span>to<wbr />String</span></a
                     >
                   </div>
                 </section>
@@ -219,66 +236,75 @@
             </h3>
             <ul class="tsd-signatures">
               <li class="tsd-signature tsd-anchor-link">
-                <a id="constructor.new_Box" class="tsd-anchor"></a
+                <a id="constructor.new_Complex" class="tsd-anchor"></a
                 ><span class="tsd-kind-constructor-signature"
-                  >new <wbr />Box</span
-                ><span class="tsd-signature-symbol">&lt;</span
-                ><a
-                  class="tsd-signature-type tsd-kind-type-parameter"
-                  href="Ejercicio_1__La_mudanza_.Box.html#constructor.new_Box.T-1"
-                  >T</a
-                ><span class="tsd-signature-symbol">&gt;</span
+                  >new <wbr />Complex</span
                 ><span class="tsd-signature-symbol">(</span
+                ><span class="tsd-kind-parameter">real</span>,
+                <span class="tsd-kind-parameter">imaginary</span
                 ><span class="tsd-signature-symbol">)</span
                 ><span class="tsd-signature-symbol">: </span
                 ><a
-                  href="Ejercicio_1__La_mudanza_.Box.html"
+                  href="Modificaci_n_arreglada__PE101_.Complex.html"
                   class="tsd-signature-type tsd-kind-class"
-                  >Box</a
-                ><span class="tsd-signature-symbol">&lt;</span
+                  >Complex</a
                 ><a
-                  class="tsd-signature-type tsd-kind-type-parameter"
-                  href="Ejercicio_1__La_mudanza_.Box.html#constructor.new_Box.T-1"
-                  >T</a
-                ><span class="tsd-signature-symbol">&gt;</span
-                ><a
-                  href="#constructor.new_Box"
+                  href="#constructor.new_Complex"
                   aria-label="Permalink"
                   class="tsd-anchor-icon"
                   ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
                 ></a>
               </li>
               <li class="tsd-description">
-                <section class="tsd-panel">
-                  <h4>Type Parameters</h4>
-                  <ul class="tsd-type-parameter-list">
+                <div class="tsd-comment tsd-typography">
+                  <p>Constructor de la clase <code>Complex</code>.</p>
+                </div>
+                <div class="tsd-parameters">
+                  <h4 class="tsd-parameters-title">Parameters</h4>
+                  <ul class="tsd-parameter-list">
                     <li>
-                      <h4>
-                        <a id="constructor.new_Box.T-1" class="tsd-anchor"></a
-                        ><span class="tsd-kind-type-parameter">T</span
-                        ><span class="tsd-signature-keyword"> extends </span
-                        ><a
-                          href="../interfaces/Ejercicio_1__La_mudanza_.Item.html"
-                          class="tsd-signature-type tsd-kind-interface"
-                          >Item</a
-                        >
-                      </h4>
+                      <h5>
+                        <span class="tsd-kind-parameter">real</span>:
+                        <span class="tsd-signature-type">number</span>
+                      </h5>
+                      <div class="tsd-comment tsd-typography">
+                        <p>Parte real del número complejo.</p>
+                      </div>
+                      <div class="tsd-comment tsd-typography"></div>
+                    </li>
+                    <li>
+                      <h5>
+                        <span class="tsd-kind-parameter">imaginary</span>:
+                        <span class="tsd-signature-type">number</span>
+                      </h5>
+                      <div class="tsd-comment tsd-typography">
+                        <p>Parte imaginaria del número complejo.</p>
+                      </div>
+                      <div class="tsd-comment tsd-typography"></div>
                     </li>
                   </ul>
-                </section>
+                </div>
                 <h4 class="tsd-returns-title">
                   Returns
                   <a
-                    href="Ejercicio_1__La_mudanza_.Box.html"
+                    href="Modificaci_n_arreglada__PE101_.Complex.html"
                     class="tsd-signature-type tsd-kind-class"
-                    >Box</a
-                  ><span class="tsd-signature-symbol">&lt;</span
-                  ><a
-                    class="tsd-signature-type tsd-kind-type-parameter"
-                    href="Ejercicio_1__La_mudanza_.Box.html#constructor.new_Box.T-1"
-                    >T</a
-                  ><span class="tsd-signature-symbol">&gt;</span>
+                    >Complex</a
+                  >
                 </h4>
+                <p>Una instancia de <code>Complex</code>.</p>
+                <div class="tsd-comment tsd-typography"></div>
+                <aside class="tsd-sources">
+                  <ul>
+                    <li>
+                      Defined in
+                      <a
+                        href="https://github.com/ULL-ESIT-INF-DSI-2324/ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101349824/blob/a917424/src/modificacion-arreglada.ts#L127"
+                        >modificacion-arreglada.ts:127</a
+                      >
+                    </li>
+                  </ul>
+                </aside>
               </li>
             </ul>
           </section>
@@ -286,29 +312,24 @@
         <section class="tsd-panel-group tsd-member-group">
           <h2>Properties</h2>
           <section class="tsd-panel tsd-member tsd-is-private">
-            <a id="contents" class="tsd-anchor"></a>
+            <a id="imaginary" class="tsd-anchor"></a>
             <h3 class="tsd-anchor-link">
               <code class="tsd-tag ts-flagPrivate">Private</code>
-              <span>contents</span
+              <span>imaginary</span
               ><a
-                href="#contents"
+                href="#imaginary"
                 aria-label="Permalink"
                 class="tsd-anchor-icon"
                 ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
               ></a>
             </h3>
             <div class="tsd-signature">
-              <span class="tsd-kind-property">contents</span
+              <span class="tsd-kind-property">imaginary</span
               ><span class="tsd-signature-symbol">:</span>
-              <a
-                class="tsd-signature-type tsd-kind-type-parameter"
-                href="Ejercicio_1__La_mudanza_.Box.html#constructor.new_Box.T-1"
-                >T</a
-              ><span class="tsd-signature-symbol">[]</span
-              ><span class="tsd-signature-symbol"> = []</span>
+              <span class="tsd-signature-type">number</span>
             </div>
             <div class="tsd-comment tsd-typography">
-              <p>Los enseres contenidos en la caja.</p>
+              <p>Parte imaginaria del número complejo.</p>
             </div>
             <div class="tsd-comment tsd-typography"></div>
             <aside class="tsd-sources">
@@ -316,8 +337,38 @@
                 <li>
                   Defined in
                   <a
-                    href="https://github.com/ULL-ESIT-INF-DSI-2324/ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101349824/blob/a917424/src/ejercicio-1.ts#L34"
-                    >ejercicio-1.ts:34</a
+                    href="https://github.com/ULL-ESIT-INF-DSI-2324/ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101349824/blob/a917424/src/modificacion-arreglada.ts#L141"
+                    >modificacion-arreglada.ts:141</a
+                  >
+                </li>
+              </ul>
+            </aside>
+          </section>
+          <section class="tsd-panel tsd-member tsd-is-private">
+            <a id="real" class="tsd-anchor"></a>
+            <h3 class="tsd-anchor-link">
+              <code class="tsd-tag ts-flagPrivate">Private</code>
+              <span>real</span
+              ><a href="#real" aria-label="Permalink" class="tsd-anchor-icon"
+                ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
+              ></a>
+            </h3>
+            <div class="tsd-signature">
+              <span class="tsd-kind-property">real</span
+              ><span class="tsd-signature-symbol">:</span>
+              <span class="tsd-signature-type">number</span>
+            </div>
+            <div class="tsd-comment tsd-typography">
+              <p>Parte real del número complejo.</p>
+            </div>
+            <div class="tsd-comment tsd-typography"></div>
+            <aside class="tsd-sources">
+              <ul>
+                <li>
+                  Defined in
+                  <a
+                    href="https://github.com/ULL-ESIT-INF-DSI-2324/ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101349824/blob/a917424/src/modificacion-arreglada.ts#L134"
+                    >modificacion-arreglada.ts:134</a
                   >
                 </li>
               </ul>
@@ -327,24 +378,27 @@
         <section class="tsd-panel-group tsd-member-group">
           <h2>Methods</h2>
           <section class="tsd-panel tsd-member">
-            <a id="addItem" class="tsd-anchor"></a>
+            <a id="add" class="tsd-anchor"></a>
             <h3 class="tsd-anchor-link">
-              <span>add<wbr />Item</span
-              ><a href="#addItem" aria-label="Permalink" class="tsd-anchor-icon"
+              <span>add</span
+              ><a href="#add" aria-label="Permalink" class="tsd-anchor-icon"
                 ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
               ></a>
             </h3>
             <ul class="tsd-signatures">
               <li class="tsd-signature tsd-anchor-link">
-                <a id="addItem.addItem-1" class="tsd-anchor"></a
-                ><span class="tsd-kind-call-signature">add<wbr />Item</span
+                <a id="add.add-1" class="tsd-anchor"></a
+                ><span class="tsd-kind-call-signature">add</span
                 ><span class="tsd-signature-symbol">(</span
-                ><span class="tsd-kind-parameter">item</span
+                ><span class="tsd-kind-parameter">other</span
                 ><span class="tsd-signature-symbol">)</span
                 ><span class="tsd-signature-symbol">: </span
-                ><span class="tsd-signature-type">void</span
                 ><a
-                  href="#addItem.addItem-1"
+                  href="Modificaci_n_arreglada__PE101_.Complex.html"
+                  class="tsd-signature-type tsd-kind-class"
+                  >Complex</a
+                ><a
+                  href="#add.add-1"
                   aria-label="Permalink"
                   class="tsd-anchor-icon"
                   ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
@@ -352,131 +406,22 @@
               </li>
               <li class="tsd-description">
                 <div class="tsd-comment tsd-typography">
-                  <p>Añade un enser a la caja.</p>
+                  <p>Suma de dos números complejos.</p>
                 </div>
                 <div class="tsd-parameters">
                   <h4 class="tsd-parameters-title">Parameters</h4>
                   <ul class="tsd-parameter-list">
                     <li>
                       <h5>
-                        <span class="tsd-kind-parameter">item</span>:
+                        <span class="tsd-kind-parameter">other</span>:
                         <a
-                          class="tsd-signature-type tsd-kind-type-parameter"
-                          href="Ejercicio_1__La_mudanza_.Box.html#constructor.new_Box.T-1"
-                          >T</a
+                          href="Modificaci_n_arreglada__PE101_.Complex.html"
+                          class="tsd-signature-type tsd-kind-class"
+                          >Complex</a
                         >
                       </h5>
                       <div class="tsd-comment tsd-typography">
-                        <p>El enser a añadir.</p>
-                      </div>
-                      <div class="tsd-comment tsd-typography"></div>
-                    </li>
-                  </ul>
-                </div>
-                <h4 class="tsd-returns-title">
-                  Returns <span class="tsd-signature-type">void</span>
-                </h4>
-                <div class="tsd-comment tsd-typography">
-                  <h4>Throws</h4>
-                  <p>Error si se intenta añadir un enser duplicado.</p>
-                </div>
-                <aside class="tsd-sources">
-                  <ul>
-                    <li>
-                      Defined in
-                      <a
-                        href="https://github.com/ULL-ESIT-INF-DSI-2324/ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101349824/blob/a917424/src/ejercicio-1.ts#L41"
-                        >ejercicio-1.ts:41</a
-                      >
-                    </li>
-                  </ul>
-                </aside>
-              </li>
-            </ul>
-          </section>
-          <section class="tsd-panel tsd-member">
-            <a id="findItem" class="tsd-anchor"></a>
-            <h3 class="tsd-anchor-link">
-              <span>find<wbr />Item</span
-              ><a
-                href="#findItem"
-                aria-label="Permalink"
-                class="tsd-anchor-icon"
-                ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
-              ></a>
-            </h3>
-            <ul class="tsd-signatures">
-              <li class="tsd-signature tsd-anchor-link">
-                <a id="findItem.findItem-1" class="tsd-anchor"></a
-                ><span class="tsd-kind-call-signature">find<wbr />Item</span
-                ><span class="tsd-signature-symbol">(</span
-                ><span class="tsd-kind-parameter">key</span>,
-                <span class="tsd-kind-parameter">value</span
-                ><span class="tsd-signature-symbol">)</span
-                ><span class="tsd-signature-symbol">: </span
-                ><a
-                  class="tsd-signature-type tsd-kind-type-parameter"
-                  href="Ejercicio_1__La_mudanza_.Box.html#constructor.new_Box.T-1"
-                  >T</a
-                ><span class="tsd-signature-symbol">[]</span
-                ><a
-                  href="#findItem.findItem-1"
-                  aria-label="Permalink"
-                  class="tsd-anchor-icon"
-                  ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
-                ></a>
-              </li>
-              <li class="tsd-description">
-                <div class="tsd-comment tsd-typography">
-                  <p>
-                    Busca un enser en la caja por uno de sus atributos. Puede
-                    buscar por nombre, por peso, por si es frágil o por su
-                    valor. Si hay más de un enser que cumple la condición,
-                    devuelve una lista con todos los enseres.
-                  </p>
-                </div>
-                <div class="tsd-parameters">
-                  <h4 class="tsd-parameters-title">Parameters</h4>
-                  <ul class="tsd-parameter-list">
-                    <li>
-                      <h5>
-                        <span class="tsd-kind-parameter">key</span>:
-                        <span class="tsd-signature-keyword">keyof </span
-                        ><a
-                          class="tsd-signature-type tsd-kind-type-parameter"
-                          href="Ejercicio_1__La_mudanza_.Box.html#constructor.new_Box.T-1"
-                          >T</a
-                        >
-                      </h5>
-                      <div class="tsd-comment tsd-typography">
-                        <p>
-                          El atributo por el que buscar. Puede ser
-                          &#39;name&#39;, &#39;weight&#39;, &#39;fragile&#39; o
-                          &#39;value&#39;.
-                        </p>
-                      </div>
-                      <div class="tsd-comment tsd-typography"></div>
-                    </li>
-                    <li>
-                      <h5>
-                        <span class="tsd-kind-parameter">value</span>:
-                        <a
-                          class="tsd-signature-type tsd-kind-type-parameter"
-                          href="Ejercicio_1__La_mudanza_.Box.html#constructor.new_Box.T-1"
-                          >T</a
-                        ><span class="tsd-signature-symbol">[</span
-                        ><span class="tsd-signature-keyword">keyof </span
-                        ><a
-                          class="tsd-signature-type tsd-kind-type-parameter"
-                          href="Ejercicio_1__La_mudanza_.Box.html#constructor.new_Box.T-1"
-                          >T</a
-                        ><span class="tsd-signature-symbol">]</span>
-                      </h5>
-                      <div class="tsd-comment tsd-typography">
-                        <p>
-                          El valor del atributo por el que buscar. Puede ser un
-                          string, un número o un booleano.
-                        </p>
+                        <p>Número complejo a sumar.</p>
                       </div>
                       <div class="tsd-comment tsd-typography"></div>
                     </li>
@@ -485,20 +430,30 @@
                 <h4 class="tsd-returns-title">
                   Returns
                   <a
-                    class="tsd-signature-type tsd-kind-type-parameter"
-                    href="Ejercicio_1__La_mudanza_.Box.html#constructor.new_Box.T-1"
-                    >T</a
-                  ><span class="tsd-signature-symbol">[]</span>
+                    href="Modificaci_n_arreglada__PE101_.Complex.html"
+                    class="tsd-signature-type tsd-kind-class"
+                    >Complex</a
+                  >
                 </h4>
-                <p>El enser o enseres encontrados.</p>
+                <p>El resultado de la operación aritmética.</p>
                 <div class="tsd-comment tsd-typography"></div>
                 <aside class="tsd-sources">
+                  <p>
+                    Implementation of
+                    <a
+                      href="../interfaces/Modificaci_n_arreglada__PE101_.Arithmeticable.html"
+                      >Arithmeticable</a
+                    >.<a
+                      href="../interfaces/Modificaci_n_arreglada__PE101_.Arithmeticable.html#add"
+                      >add</a
+                    >
+                  </p>
                   <ul>
                     <li>
                       Defined in
                       <a
-                        href="https://github.com/ULL-ESIT-INF-DSI-2324/ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101349824/blob/a917424/src/ejercicio-1.ts#L88"
-                        >ejercicio-1.ts:88</a
+                        href="https://github.com/ULL-ESIT-INF-DSI-2324/ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101349824/blob/a917424/src/modificacion-arreglada.ts#L149"
+                        >modificacion-arreglada.ts:149</a
                       >
                     </li>
                   </ul>
@@ -507,11 +462,95 @@
             </ul>
           </section>
           <section class="tsd-panel tsd-member">
-            <a id="listItems" class="tsd-anchor"></a>
+            <a id="divide" class="tsd-anchor"></a>
             <h3 class="tsd-anchor-link">
-              <span>list<wbr />Items</span
+              <span>divide</span
+              ><a href="#divide" aria-label="Permalink" class="tsd-anchor-icon"
+                ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
+              ></a>
+            </h3>
+            <ul class="tsd-signatures">
+              <li class="tsd-signature tsd-anchor-link">
+                <a id="divide.divide-1" class="tsd-anchor"></a
+                ><span class="tsd-kind-call-signature">divide</span
+                ><span class="tsd-signature-symbol">(</span
+                ><span class="tsd-kind-parameter">other</span
+                ><span class="tsd-signature-symbol">)</span
+                ><span class="tsd-signature-symbol">: </span
+                ><a
+                  href="Modificaci_n_arreglada__PE101_.Complex.html"
+                  class="tsd-signature-type tsd-kind-class"
+                  >Complex</a
+                ><a
+                  href="#divide.divide-1"
+                  aria-label="Permalink"
+                  class="tsd-anchor-icon"
+                  ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
+                ></a>
+              </li>
+              <li class="tsd-description">
+                <div class="tsd-comment tsd-typography">
+                  <p>División de dos números complejos.</p>
+                </div>
+                <div class="tsd-parameters">
+                  <h4 class="tsd-parameters-title">Parameters</h4>
+                  <ul class="tsd-parameter-list">
+                    <li>
+                      <h5>
+                        <span class="tsd-kind-parameter">other</span>:
+                        <a
+                          href="Modificaci_n_arreglada__PE101_.Complex.html"
+                          class="tsd-signature-type tsd-kind-class"
+                          >Complex</a
+                        >
+                      </h5>
+                      <div class="tsd-comment tsd-typography">
+                        <p>Número complejo a dividir.</p>
+                      </div>
+                      <div class="tsd-comment tsd-typography"></div>
+                    </li>
+                  </ul>
+                </div>
+                <h4 class="tsd-returns-title">
+                  Returns
+                  <a
+                    href="Modificaci_n_arreglada__PE101_.Complex.html"
+                    class="tsd-signature-type tsd-kind-class"
+                    >Complex</a
+                  >
+                </h4>
+                <p>El resultado de la operación aritmética.</p>
+                <div class="tsd-comment tsd-typography"></div>
+                <aside class="tsd-sources">
+                  <p>
+                    Implementation of
+                    <a
+                      href="../interfaces/Modificaci_n_arreglada__PE101_.Arithmeticable.html"
+                      >Arithmeticable</a
+                    >.<a
+                      href="../interfaces/Modificaci_n_arreglada__PE101_.Arithmeticable.html#divide"
+                      >divide</a
+                    >
+                  </p>
+                  <ul>
+                    <li>
+                      Defined in
+                      <a
+                        href="https://github.com/ULL-ESIT-INF-DSI-2324/ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101349824/blob/a917424/src/modificacion-arreglada.ts#L185"
+                        >modificacion-arreglada.ts:185</a
+                      >
+                    </li>
+                  </ul>
+                </aside>
+              </li>
+            </ul>
+          </section>
+          <section class="tsd-panel tsd-member">
+            <a id="multiply" class="tsd-anchor"></a>
+            <h3 class="tsd-anchor-link">
+              <span>multiply</span
               ><a
-                href="#listItems"
+                href="#multiply"
                 aria-label="Permalink"
                 class="tsd-anchor-icon"
                 ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
@@ -519,14 +558,188 @@
             </h3>
             <ul class="tsd-signatures">
               <li class="tsd-signature tsd-anchor-link">
-                <a id="listItems.listItems-1" class="tsd-anchor"></a
-                ><span class="tsd-kind-call-signature">list<wbr />Items</span
+                <a id="multiply.multiply-1" class="tsd-anchor"></a
+                ><span class="tsd-kind-call-signature">multiply</span
+                ><span class="tsd-signature-symbol">(</span
+                ><span class="tsd-kind-parameter">other</span
+                ><span class="tsd-signature-symbol">)</span
+                ><span class="tsd-signature-symbol">: </span
+                ><a
+                  href="Modificaci_n_arreglada__PE101_.Complex.html"
+                  class="tsd-signature-type tsd-kind-class"
+                  >Complex</a
+                ><a
+                  href="#multiply.multiply-1"
+                  aria-label="Permalink"
+                  class="tsd-anchor-icon"
+                  ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
+                ></a>
+              </li>
+              <li class="tsd-description">
+                <div class="tsd-comment tsd-typography">
+                  <p>Multiplicación de dos números complejos.</p>
+                </div>
+                <div class="tsd-parameters">
+                  <h4 class="tsd-parameters-title">Parameters</h4>
+                  <ul class="tsd-parameter-list">
+                    <li>
+                      <h5>
+                        <span class="tsd-kind-parameter">other</span>:
+                        <a
+                          href="Modificaci_n_arreglada__PE101_.Complex.html"
+                          class="tsd-signature-type tsd-kind-class"
+                          >Complex</a
+                        >
+                      </h5>
+                      <div class="tsd-comment tsd-typography">
+                        <p>Número complejo a multiplicar.</p>
+                      </div>
+                      <div class="tsd-comment tsd-typography"></div>
+                    </li>
+                  </ul>
+                </div>
+                <h4 class="tsd-returns-title">
+                  Returns
+                  <a
+                    href="Modificaci_n_arreglada__PE101_.Complex.html"
+                    class="tsd-signature-type tsd-kind-class"
+                    >Complex</a
+                  >
+                </h4>
+                <p>El resultado de la operación aritmética.</p>
+                <div class="tsd-comment tsd-typography"></div>
+                <aside class="tsd-sources">
+                  <p>
+                    Implementation of
+                    <a
+                      href="../interfaces/Modificaci_n_arreglada__PE101_.Arithmeticable.html"
+                      >Arithmeticable</a
+                    >.<a
+                      href="../interfaces/Modificaci_n_arreglada__PE101_.Arithmeticable.html#multiply"
+                      >multiply</a
+                    >
+                  </p>
+                  <ul>
+                    <li>
+                      Defined in
+                      <a
+                        href="https://github.com/ULL-ESIT-INF-DSI-2324/ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101349824/blob/a917424/src/modificacion-arreglada.ts#L173"
+                        >modificacion-arreglada.ts:173</a
+                      >
+                    </li>
+                  </ul>
+                </aside>
+              </li>
+            </ul>
+          </section>
+          <section class="tsd-panel tsd-member">
+            <a id="subtract" class="tsd-anchor"></a>
+            <h3 class="tsd-anchor-link">
+              <span>subtract</span
+              ><a
+                href="#subtract"
+                aria-label="Permalink"
+                class="tsd-anchor-icon"
+                ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
+              ></a>
+            </h3>
+            <ul class="tsd-signatures">
+              <li class="tsd-signature tsd-anchor-link">
+                <a id="subtract.subtract-1" class="tsd-anchor"></a
+                ><span class="tsd-kind-call-signature">subtract</span
+                ><span class="tsd-signature-symbol">(</span
+                ><span class="tsd-kind-parameter">other</span
+                ><span class="tsd-signature-symbol">)</span
+                ><span class="tsd-signature-symbol">: </span
+                ><a
+                  href="Modificaci_n_arreglada__PE101_.Complex.html"
+                  class="tsd-signature-type tsd-kind-class"
+                  >Complex</a
+                ><a
+                  href="#subtract.subtract-1"
+                  aria-label="Permalink"
+                  class="tsd-anchor-icon"
+                  ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
+                ></a>
+              </li>
+              <li class="tsd-description">
+                <div class="tsd-comment tsd-typography">
+                  <p>Resta de dos números complejos.</p>
+                </div>
+                <div class="tsd-parameters">
+                  <h4 class="tsd-parameters-title">Parameters</h4>
+                  <ul class="tsd-parameter-list">
+                    <li>
+                      <h5>
+                        <span class="tsd-kind-parameter">other</span>:
+                        <a
+                          href="Modificaci_n_arreglada__PE101_.Complex.html"
+                          class="tsd-signature-type tsd-kind-class"
+                          >Complex</a
+                        >
+                      </h5>
+                      <div class="tsd-comment tsd-typography">
+                        <p>Número complejo a restar.</p>
+                      </div>
+                      <div class="tsd-comment tsd-typography"></div>
+                    </li>
+                  </ul>
+                </div>
+                <h4 class="tsd-returns-title">
+                  Returns
+                  <a
+                    href="Modificaci_n_arreglada__PE101_.Complex.html"
+                    class="tsd-signature-type tsd-kind-class"
+                    >Complex</a
+                  >
+                </h4>
+                <p>El resultado de la operación aritmética.</p>
+                <div class="tsd-comment tsd-typography"></div>
+                <aside class="tsd-sources">
+                  <p>
+                    Implementation of
+                    <a
+                      href="../interfaces/Modificaci_n_arreglada__PE101_.Arithmeticable.html"
+                      >Arithmeticable</a
+                    >.<a
+                      href="../interfaces/Modificaci_n_arreglada__PE101_.Arithmeticable.html#subtract"
+                      >subtract</a
+                    >
+                  </p>
+                  <ul>
+                    <li>
+                      Defined in
+                      <a
+                        href="https://github.com/ULL-ESIT-INF-DSI-2324/ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101349824/blob/a917424/src/modificacion-arreglada.ts#L161"
+                        >modificacion-arreglada.ts:161</a
+                      >
+                    </li>
+                  </ul>
+                </aside>
+              </li>
+            </ul>
+          </section>
+          <section class="tsd-panel tsd-member">
+            <a id="toString" class="tsd-anchor"></a>
+            <h3 class="tsd-anchor-link">
+              <span>to<wbr />String</span
+              ><a
+                href="#toString"
+                aria-label="Permalink"
+                class="tsd-anchor-icon"
+                ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
+              ></a>
+            </h3>
+            <ul class="tsd-signatures">
+              <li class="tsd-signature tsd-anchor-link">
+                <a id="toString.toString-1" class="tsd-anchor"></a
+                ><span class="tsd-kind-call-signature">to<wbr />String</span
                 ><span class="tsd-signature-symbol">(</span
                 ><span class="tsd-signature-symbol">)</span
                 ><span class="tsd-signature-symbol">: </span
-                ><span class="tsd-signature-type">void</span
+                ><span class="tsd-signature-type">string</span
                 ><a
-                  href="#listItems.listItems-1"
+                  href="#toString.toString-1"
                   aria-label="Permalink"
                   class="tsd-anchor-icon"
                   ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
@@ -535,91 +748,22 @@
               <li class="tsd-description">
                 <div class="tsd-comment tsd-typography">
                   <p>
-                    Imprime por consola los enseres contenidos en la caja.
-                    Imprime el nombre, el peso, si es frágil y el valor de cada
-                    enser. Hay que tener cuenta que el enser puede no tener
-                    todos los atributos. Si un atributo no está definido, se
-                    imprime &quot;N/A&quot;.
+                    Convierte el número complejo a una cadena de texto. También
+                    se encarga de manejar los casos especiales.
                   </p>
                 </div>
                 <h4 class="tsd-returns-title">
-                  Returns <span class="tsd-signature-type">void</span>
+                  Returns <span class="tsd-signature-type">string</span>
                 </h4>
+                <p>Representación en cadena del número complejo.</p>
                 <div class="tsd-comment tsd-typography"></div>
                 <aside class="tsd-sources">
                   <ul>
                     <li>
                       Defined in
                       <a
-                        href="https://github.com/ULL-ESIT-INF-DSI-2324/ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101349824/blob/a917424/src/ejercicio-1.ts#L72"
-                        >ejercicio-1.ts:72</a
-                      >
-                    </li>
-                  </ul>
-                </aside>
-              </li>
-            </ul>
-          </section>
-          <section class="tsd-panel tsd-member">
-            <a id="removeItem" class="tsd-anchor"></a>
-            <h3 class="tsd-anchor-link">
-              <span>remove<wbr />Item</span
-              ><a
-                href="#removeItem"
-                aria-label="Permalink"
-                class="tsd-anchor-icon"
-                ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
-              ></a>
-            </h3>
-            <ul class="tsd-signatures">
-              <li class="tsd-signature tsd-anchor-link">
-                <a id="removeItem.removeItem-1" class="tsd-anchor"></a
-                ><span class="tsd-kind-call-signature">remove<wbr />Item</span
-                ><span class="tsd-signature-symbol">(</span
-                ><span class="tsd-kind-parameter">name</span
-                ><span class="tsd-signature-symbol">)</span
-                ><span class="tsd-signature-symbol">: </span
-                ><span class="tsd-signature-type">void</span
-                ><a
-                  href="#removeItem.removeItem-1"
-                  aria-label="Permalink"
-                  class="tsd-anchor-icon"
-                  ><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg
-                ></a>
-              </li>
-              <li class="tsd-description">
-                <div class="tsd-comment tsd-typography">
-                  <p>Elimina un enser de la caja por su nombre.</p>
-                </div>
-                <div class="tsd-parameters">
-                  <h4 class="tsd-parameters-title">Parameters</h4>
-                  <ul class="tsd-parameter-list">
-                    <li>
-                      <h5>
-                        <span class="tsd-kind-parameter">name</span>:
-                        <span class="tsd-signature-type">string</span>
-                      </h5>
-                      <div class="tsd-comment tsd-typography">
-                        <p>El nombre del enser a eliminar.</p>
-                      </div>
-                      <div class="tsd-comment tsd-typography"></div>
-                    </li>
-                  </ul>
-                </div>
-                <h4 class="tsd-returns-title">
-                  Returns <span class="tsd-signature-type">void</span>
-                </h4>
-                <div class="tsd-comment tsd-typography">
-                  <h4>Throws</h4>
-                  <p>Error si no se encuentra el enser.</p>
-                </div>
-                <aside class="tsd-sources">
-                  <ul>
-                    <li>
-                      Defined in
-                      <a
-                        href="https://github.com/ULL-ESIT-INF-DSI-2324/ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101349824/blob/a917424/src/ejercicio-1.ts#L57"
-                        >ejercicio-1.ts:57</a
+                        href="https://github.com/ULL-ESIT-INF-DSI-2324/ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101349824/blob/a917424/src/modificacion-arreglada.ts#L198"
+                        >modificacion-arreglada.ts:198</a
                       >
                     </li>
                   </ul>
@@ -806,38 +950,52 @@
                   >
                 </li>
                 <li>
-                  <a href="#contents" class="tsd-is-private"
+                  <a href="#imaginary" class="tsd-is-private"
                     ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
                       <use href="#icon-1024"></use></svg
-                    ><span>contents</span></a
+                    ><span>imaginary</span></a
                   >
                 </li>
                 <li>
-                  <a href="#addItem" class=""
+                  <a href="#real" class="tsd-is-private"
                     ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
-                      <use href="#icon-2048"></use></svg
-                    ><span>add<wbr />Item</span></a
+                      <use href="#icon-1024"></use></svg
+                    ><span>real</span></a
                   >
                 </li>
                 <li>
-                  <a href="#findItem" class=""
+                  <a href="#add" class=""
                     ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
                       <use href="#icon-2048"></use></svg
-                    ><span>find<wbr />Item</span></a
+                    ><span>add</span></a
                   >
                 </li>
                 <li>
-                  <a href="#listItems" class=""
+                  <a href="#divide" class=""
                     ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
                       <use href="#icon-2048"></use></svg
-                    ><span>list<wbr />Items</span></a
+                    ><span>divide</span></a
                   >
                 </li>
                 <li>
-                  <a href="#removeItem" class=""
+                  <a href="#multiply" class=""
                     ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
                       <use href="#icon-2048"></use></svg
-                    ><span>remove<wbr />Item</span></a
+                    ><span>multiply</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#subtract" class=""
+                    ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
+                      <use href="#icon-2048"></use></svg
+                    ><span>subtract</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#toString" class=""
+                    ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
+                      <use href="#icon-2048"></use></svg
+                    ><span>to<wbr />String</span></a
                   >
                 </li>
               </ul>
