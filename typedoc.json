@@ -1,5 +1,9 @@
 {
   "entryPoints": [
+    "./src/modificacion-1.ts",
+    "./src/modificacion-2.ts",
+    "./src/modificacion-3.ts",
+    "./src/modificacion-arreglada.ts",
     "./src/ejercicio-1.ts",
     "./src/ejercicio-2.ts",
     "./src/ejercicio-3.ts",
