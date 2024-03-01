@@ -84,16 +84,29 @@ export class PrinterScanner implements Printable, Scannable {
   }
 }
 
+// Código cliente
 /**
- * Uso de las clases `Printer`, `Scanner` y `PrinterScanner` para imprimir y escanear.
- * @description Se crea una instancia de cada clase y se llama al método correspondiente.
+ * Uso de las clase `Printer` para imprimir.
+ * @description Se crea una instancia de la clase y se llama al método correspondiente.
+ * @example printer.print(); // Impresión
  */
 export const printer = new Printer();
 printer.print(); // Impresión
 
+/**
+ * Uso de las clase `Scanner` para escanear.
+ * @description Se crea una instancia de la clase y se llama al método correspondiente.
+ * @example scanner.scan(); // Escaneo
+ */
 export const scanner = new Scanner();
 scanner.scan(); // Escaneo
 
+/**
+ * Uso de las clase `PrinterScanner` para imprimir y escanear.
+ * @description Se crea una instancia de la clase y se llama a los métodos correspondientes.
+ * @example printerScanner.print(); // Impresión
+ * @example printerScanner.scan(); // Escaneo
+ */
 export const printerScanner = new PrinterScanner();
 printerScanner.print(); // Impresión
 printerScanner.scan(); // Escaneo

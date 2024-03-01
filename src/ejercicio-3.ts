@@ -75,8 +75,9 @@ export class FileHandler implements IFileHandler {
   }
 }
 
+// Código cliente
 /**
- * Uso de la clase FileHandler para leer y añadir contenido a un archivo.
+ * Uso de la clase `FileHandler` para leer y añadir contenido a un archivo.
  */
 export const fileHandler: IFileHandler = new FileHandler();
 export const filePath: string = "src/example.txt";
