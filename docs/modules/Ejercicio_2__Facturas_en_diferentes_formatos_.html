@@ -3,18 +3,21 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="IE=edge" />
-    <title>ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101349824</title>
+    <title>
+      Ejercicio 2: Facturas en diferentes formatos. |
+      ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101349824
+    </title>
     <meta
       name="description"
       content="Documentation for ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101349824"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="assets/style.css" />
-    <link rel="stylesheet" href="assets/highlight.css" />
-    <link rel="stylesheet" href="assets/custom.css" />
-    <script defer src="assets/main.js"></script>
-    <script async src="assets/search.js" id="tsd-search-script"></script>
-    <script async src="assets/navigation.js" id="tsd-nav-script"></script>
+    <link rel="stylesheet" href="../assets/style.css" />
+    <link rel="stylesheet" href="../assets/highlight.css" />
+    <link rel="stylesheet" href="../assets/custom.css" />
+    <script defer src="../assets/main.js"></script>
+    <script async src="../assets/search.js" id="tsd-search-script"></script>
+    <script async src="../assets/navigation.js" id="tsd-nav-script"></script>
   </head>
   <body>
     <script>
@@ -23,7 +26,7 @@
     </script>
     <header class="tsd-page-toolbar">
       <div class="tsd-toolbar-contents container">
-        <div class="table-cell" id="tsd-search" data-base=".">
+        <div class="table-cell" id="tsd-search" data-base="..">
           <div class="field">
             <label
               for="tsd-search-field"
@@ -37,7 +40,7 @@
             <li class="state loading">Preparing search index...</li>
             <li class="state failure">The search index is not available</li>
           </ul>
-          <a href="index.html" class="title"
+          <a href="../index.html" class="title"
             >Desarrollo de Sistemas Informáticos - ULL</a
           >
         </div>
@@ -56,17 +59,122 @@
     <div class="container container-main">
       <div class="col-content">
         <div class="tsd-page-title">
-          <h2>ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101349824</h2>
+          <ul class="tsd-breadcrumb">
+            <li>
+              <a href="../index.html"
+                >ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101349824</a
+              >
+            </li>
+            <li>
+              <a href="Ejercicio_2__Facturas_en_diferentes_formatos_.html"
+                >Ejercicio 2: Facturas en diferentes formatos.</a
+              >
+            </li>
+          </ul>
+          <h1>Module Ejercicio 2: Facturas en diferentes formatos.</h1>
         </div>
-        <div class="tsd-panel tsd-typography">
-          <p>
-            <a href="https://classroom.github.com/a/G0JN8jPZ"
-              ><img
-                src="https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg"
-                alt="Review Assignment Due Date"
-            /></a>
-          </p>
-        </div>
+        <section class="tsd-panel tsd-comment">
+          <div class="tsd-comment tsd-typography">
+            <h4>File</h4>
+            <p>ejercicio-2.ts</p>
+            <h4>Brief</h4>
+            <p>
+              Programa que muestra cómo se pueden crear diferentes tipos de
+              facturas con diferentes formatos (PDF, HTML, etc.) y que todas
+              tengan un método común para generar la factura.
+            </p>
+            <h4>Description</h4>
+            <p>
+              El requerimiento de que el diseño del sistema permita añadir
+              nuevos formatos de generación de facturas sin necesidad de
+              modificar el resto del código implementado se alinea directamente
+              con el
+              <code>Principio de Abierto/Cerrado (Open/Closed Principle)</code>,
+              uno de los cinco principios SOLID de la programación orientada a
+              objetos.
+            </p>
+            <p>
+              El ejercicio propuesto ha sido abordado con la intención de
+              demostrar cómo se pueden gestionar facturas en diferentes
+              formatos, siguiendo el Principio de Abierto/Cerrado, uno de los
+              pilares SOLID, que promueve la extensibilidad de las clases sin
+              necesidad de modificar el código existente. Para lograr esto, se
+              ha definido una interfaz <code>IFactura</code> que establece un
+              contrato común para la generación de facturas, garantizando que
+              cualquier clase que la implemente provea su propio método
+              <code>generarFactura</code>. Este enfoque permite la creación de
+              diversas representaciones de facturas, como PDF y HTML en este
+              caso, cada una con características específicas como
+              <code>metadatosPDF</code> y <code>estilosCSS</code>,
+              respectivamente, sin alterar la definición inicial de la interfaz.
+              La clase base <code>Factura</code> actúa como un fundamento para
+              almacenar información común como el cliente y el total de la
+              factura, mientras que las clases <code>FacturaPDF</code> y
+              <code>FacturaHTML</code> extienden esta base incorporando los
+              detalles específicos de cada formato y cumpliendo con el contrato
+              de la interfaz mediante la implementación del método
+              <code>generarFactura</code>. Esta estructura no solo facilita la
+              adición de nuevos formatos de factura en el futuro, sino que
+              también promueve un diseño limpio y mantenible, respetando los
+              principios SOLID y asegurando que el sistema sea robusto, flexible
+              y fácil de extender.
+            </p>
+          </div>
+        </section>
+        <aside class="tsd-sources">
+          <ul>
+            <li>
+              Defined in
+              <a
+                href="https://github.com/ULL-ESIT-INF-DSI-2324/ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101349824/blob/adf051e/src/ejercicio-2.ts#L1"
+                >ejercicio-2.ts:1</a
+              >
+            </li>
+          </ul>
+        </aside>
+        <section class="tsd-panel-group tsd-index-group">
+          <section class="tsd-panel tsd-index-panel">
+            <h3 class="tsd-index-heading uppercase">Index</h3>
+            <section class="tsd-index-section">
+              <h3 class="tsd-index-heading">Classes</h3>
+              <div class="tsd-index-list">
+                <a
+                  href="../classes/Ejercicio_2__Facturas_en_diferentes_formatos_.Factura.html"
+                  class="tsd-index-link"
+                  ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
+                    <use href="#icon-128"></use></svg
+                  ><span>Factura</span></a
+                >
+                <a
+                  href="../classes/Ejercicio_2__Facturas_en_diferentes_formatos_.FacturaHTML.html"
+                  class="tsd-index-link"
+                  ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
+                    <use href="#icon-128"></use></svg
+                  ><span>FacturaHTML</span></a
+                >
+                <a
+                  href="../classes/Ejercicio_2__Facturas_en_diferentes_formatos_.FacturaPDF.html"
+                  class="tsd-index-link"
+                  ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
+                    <use href="#icon-128"></use></svg
+                  ><span>FacturaPDF</span></a
+                >
+              </div>
+            </section>
+            <section class="tsd-index-section">
+              <h3 class="tsd-index-heading">Interfaces</h3>
+              <div class="tsd-index-list">
+                <a
+                  href="../interfaces/Ejercicio_2__Facturas_en_diferentes_formatos_.IFactura.html"
+                  class="tsd-index-link"
+                  ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
+                    <use href="#icon-256"></use></svg
+                  ><span>IFactura</span></a
+                >
+              </div>
+            </section>
+          </section>
+        </section>
       </div>
       <div class="col-sidebar">
         <div class="page-menu">
@@ -230,7 +338,7 @@
         </div>
         <div class="site-menu">
           <nav class="tsd-navigation">
-            <a href="index.html" class="current"
+            <a href="../index.html"
               ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
                 <use href="#icon-1"></use></svg
               ><span
@@ -240,10 +348,10 @@
             <ul
               class="tsd-small-nested-navigation"
               id="tsd-nav-container"
-              data-base="."
+              data-base=".."
             >
               <li>
-                <a href="modules/Ejercicio_1__La_mudanza_.html"
+                <a href="Ejercicio_1__La_mudanza_.html"
                   ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
                     <use href="#icon-2"></use></svg
                   >Ejercicio 1: La mudanza.</a
@@ -251,7 +359,8 @@
               </li>
               <li>
                 <a
-                  href="modules/Ejercicio_2__Facturas_en_diferentes_formatos_.html"
+                  href="Ejercicio_2__Facturas_en_diferentes_formatos_.html"
+                  class="current"
                   ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
                     <use href="#icon-2"></use></svg
                   >Ejercicio 2: Facturas en diferentes formatos.</a
