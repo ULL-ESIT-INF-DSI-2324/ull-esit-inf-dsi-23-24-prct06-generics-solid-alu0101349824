@@ -4,8 +4,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="IE=edge" />
     <title>
-      Ejercicio 1: La mudanza. |
-      ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101349824
+      filePath | ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101349824
     </title>
     <meta
       name="description"
@@ -66,101 +65,39 @@
               >
             </li>
             <li>
-              <a href="Ejercicio_1__La_mudanza_.html"
-                >Ejercicio 1: La mudanza.</a
+              <a href="../modules/Ejercicio_3__Gestor_de_ficheros_.html"
+                >Ejercicio 3: Gestor de ficheros.</a
+              >
+            </li>
+            <li>
+              <a href="Ejercicio_3__Gestor_de_ficheros_.filePath.html"
+                >filePath</a
               >
             </li>
           </ul>
-          <h1>Module Ejercicio 1: La mudanza.</h1>
+          <h1>
+            Variable filePath<code class="tsd-tag ts-flagConst">Const</code>
+          </h1>
         </div>
-        <section class="tsd-panel tsd-comment">
-          <div class="tsd-comment tsd-typography">
-            <h4>File</h4>
-            <p>ejercicio-1.ts</p>
-            <h4>Brief</h4>
-            <p>
-              Programa que simula una caja que puede contener varios enseres.
-            </p>
-            <h4>Description</h4>
-            <p>
-              He decidido abordar el ejercicio de la mudanza creando una
-              interfaz <code>Item</code> y una clase
-              <code>Box&lt;T extends Item&gt;</code> para modelar la relación
-              entre los enseres y las cajas donde se almacenan. Elegí una
-              interfaz para <code>Item</code> porque quería definir un contrato
-              para los objetos que podrían almacenarse en las cajas,
-              asegurándome de que todos los enseres tuvieran un nombre, peso,
-              fragilidad y valor, aunque permití que peso, fragilidad y valor
-              fueran opcionales para dar flexibilidad en caso de que no toda la
-              información esté disponible para cada enser. La decisión de hacer
-              la clase <code>Box</code> genérica, extendiendo <code>Item</code>,
-              fue para permitir que la caja almacene cualquier tipo de enser,
-              proporcionando así una solución más versátil y reutilizable.
-              Utilicé un arreglo para <code>contents</code> para almacenar los
-              enseres, ya que esta estructura de datos facilita añadir, buscar y
-              eliminar elementos. Implementé el método <code>addItem</code> para
-              añadir enseres a la caja, incluyendo una comprobación para evitar
-              duplicados, lo cual es importante para mantener la consistencia de
-              los datos y evitar errores lógicos. Para eliminar enseres,
-              desarrollé <code>removeItem</code>, que busca el enser por nombre
-              y lo elimina si lo encuentra, lanzando un error si el enser no
-              existe para informar al usuario de la operación fallida. Decidí
-              que <code>listItems</code> debería imprimir todos los atributos de
-              cada enser, usando el operador de coalescencia nula para manejar
-              elegante y eficientemente los atributos opcionales, mostrando
-              &quot;N/A&quot; cuando un atributo no está definido. Finalmente,
-              <code>findItem</code> fue diseñado para buscar enseres basándose
-              en cualquier atributo, haciendo el método extremadamente flexible
-              y capaz de devolver múltiples enseres que coincidan con el
-              criterio de búsqueda, lo cual consideré útil para situaciones
-              donde se necesite filtrar enseres basándose en características
-              específicas. En general, mi enfoque ha sido crear un sistema que
-              siga el método SOLID, empleando características de TypeScript como
-              genéricos y el operador de coalescencia nula para hacer el código
-              más seguro y mantenible.
-            </p>
-          </div>
-        </section>
+        <div class="tsd-signature">
+          <span class="tsd-kind-variable">file<wbr />Path</span
+          ><span class="tsd-signature-symbol">:</span>
+          <span class="tsd-signature-type">string</span
+          ><span class="tsd-signature-symbol">
+            = &quot;src/example.txt&quot;</span
+          >
+        </div>
         <aside class="tsd-sources">
           <ul>
             <li>
               Defined in
               <a
-                href="https://github.com/ULL-ESIT-INF-DSI-2324/ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101349824/blob/078dea0/src/ejercicio-1.ts#L1"
-                >ejercicio-1.ts:1</a
+                href="https://github.com/ULL-ESIT-INF-DSI-2324/ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101349824/blob/078dea0/src/ejercicio-3.ts#L82"
+                >ejercicio-3.ts:82</a
               >
             </li>
           </ul>
         </aside>
-        <section class="tsd-panel-group tsd-index-group">
-          <section class="tsd-panel tsd-index-panel">
-            <h3 class="tsd-index-heading uppercase">Index</h3>
-            <section class="tsd-index-section">
-              <h3 class="tsd-index-heading">Classes</h3>
-              <div class="tsd-index-list">
-                <a
-                  href="../classes/Ejercicio_1__La_mudanza_.Box.html"
-                  class="tsd-index-link"
-                  ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
-                    <use href="#icon-128"></use></svg
-                  ><span>Box</span></a
-                >
-              </div>
-            </section>
-            <section class="tsd-index-section">
-              <h3 class="tsd-index-heading">Interfaces</h3>
-              <div class="tsd-index-list">
-                <a
-                  href="../interfaces/Ejercicio_1__La_mudanza_.Item.html"
-                  class="tsd-index-link"
-                  ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
-                    <use href="#icon-256"></use></svg
-                  ><span>Item</span></a
-                >
-              </div>
-            </section>
-          </section>
-        </section>
       </div>
       <div class="col-sidebar">
         <div class="page-menu">
@@ -337,49 +274,50 @@
               data-base=".."
             >
               <li>
-                <a href="Ejercicio_1__La_mudanza_.html" class="current"
+                <a href="../modules/Ejercicio_1__La_mudanza_.html"
                   ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
                     <use href="#icon-2"></use></svg
                   >Ejercicio 1: La mudanza.</a
                 >
               </li>
               <li>
-                <a href="Ejercicio_2__Facturas_en_diferentes_formatos_.html"
+                <a
+                  href="../modules/Ejercicio_2__Facturas_en_diferentes_formatos_.html"
                   ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
                     <use href="#icon-2"></use></svg
                   >Ejercicio 2: Facturas en diferentes formatos.</a
                 >
               </li>
               <li>
-                <a href="Ejercicio_3__Gestor_de_ficheros_.html"
+                <a href="../modules/Ejercicio_3__Gestor_de_ficheros_.html"
                   ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
                     <use href="#icon-2"></use></svg
                   >Ejercicio 3: Gestor de ficheros.</a
                 >
               </li>
               <li>
-                <a href="Modificaci_n_arreglada__PE101_.html"
+                <a href="../modules/Modificaci_n_arreglada__PE101_.html"
                   ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
                     <use href="#icon-2"></use></svg
                   >Modificación arreglada: PE101.</a
                 >
               </li>
               <li>
-                <a href="modificacion_1.html"
+                <a href="../modules/modificacion_1.html"
                   ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
                     <use href="#icon-2"></use></svg
                   >modificacion-1</a
                 >
               </li>
               <li>
-                <a href="modificacion_2.html"
+                <a href="../modules/modificacion_2.html"
                   ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
                     <use href="#icon-2"></use></svg
                   >modificacion-2</a
                 >
               </li>
               <li>
-                <a href="modificacion_3.html"
+                <a href="../modules/modificacion_3.html"
                   ><svg class="tsd-kind-icon" viewBox="0 0 24 24">
                     <use href="#icon-2"></use></svg
                   >modificacion-3</a

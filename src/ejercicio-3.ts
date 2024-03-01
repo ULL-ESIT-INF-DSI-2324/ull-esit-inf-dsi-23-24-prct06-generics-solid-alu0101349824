@@ -7,6 +7,10 @@
  * Para solucionar este problema, se propone la creación de una interfaz IFileHandler que defina los métodos readFile y appendToFile, y una clase FileHandler que implemente dicha interfaz. De esta manera, FileManager podría delegar la responsabilidad de leer y escribir archivos a FileHandler, manteniendo su responsabilidad única de manejar la lógica de negocio relacionada con los archivos (SPR). Además, esta solución permitiría extender las funcionalidades de FileHandler sin necesidad de modificar FileManager (OCP).
  */
 
+/**
+ * Importación de módulos y clases necesarias.
+ * @requires fs Módulo de Node.js para manejar archivos.
+ */
 import * as fs from "fs";
 
 /**
@@ -16,7 +20,7 @@ import * as fs from "fs";
  * @method readFile Lee el contenido de un archivo y lo devuelve como un string.
  * @method appendToFile Añade datos al final de un archivo.
  */
-interface IFileHandler {
+export interface IFileHandler {
   /**
    * Lee el contenido de un archivo.
    * @param filePath Ruta del archivo a leer.
@@ -38,7 +42,7 @@ interface IFileHandler {
  * @method readFile Lee el contenido de un archivo usando fs.readFileSync.
  * @method appendToFile Añade datos al final de un archivo usando fs.appendFileSync.
  */
-class FileHandler implements IFileHandler {
+export class FileHandler implements IFileHandler {
   /**
    * Lee el contenido de un archivo.
    * @param filePath Ruta del archivo a leer.
@@ -74,23 +78,23 @@ class FileHandler implements IFileHandler {
 /**
  * Uso de la clase FileHandler para leer y añadir contenido a un archivo.
  */
-const fileHandler: IFileHandler = new FileHandler();
-const filePath: string = "src/example.txt";
+export const fileHandler: IFileHandler = new FileHandler();
+export const filePath: string = "src/example.txt";
 
 /**
  * Leyendo contenido actual para verificar.
  */
-const currentContent = fileHandler.readFile(filePath);
+export const currentContent = fileHandler.readFile(filePath);
 console.log("Contenido actual:", currentContent);
 
 /**
  * Añadiendo contenido nuevo al archivo.
  */
-const newData = "Este es contenido nuevo que se añadirá al archivo.";
+export const newData = "Este es contenido nuevo que se añadirá al archivo.";
 fileHandler.appendToFile(filePath, newData);
 
 /**
  * Leyendo contenido actualizado para verificar.
  */
-const updatedContent = fileHandler.readFile(filePath);
+export const updatedContent = fileHandler.readFile(filePath);
 console.log("Contenido actualizado:", updatedContent);
